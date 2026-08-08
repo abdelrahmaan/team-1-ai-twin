@@ -8,9 +8,11 @@ configurable prompt/role, a choice of LLM, and optional PDF context.
 | File               | Purpose                                                        |
 |---------------------|------------------------------------------------------------------|
 | `config.py`         | All settings: prompt, LLM model, voice, PDF path, file uploads  |
-| `setup_agent.py`     | Creates/configures the agent on ElevenLabs using `config.py`     |
+| `prompts.py`         | Builds `SYSTEM_PROMPT` — persona plus DBC reference material from `data/dbc_reference.txt` |
+| `setup_agent.py`     | Creates a new agent, or updates an existing one in place (`--agent-id`), from `config.py` |
 | `requirements.txt`  | Python dependencies                                              |
-| `index.html`        | Simple browser UI — click a button, talk, hear the agent reply  |
+| `elevenlabs-chat/`   | **Current UI** — a ChatGPT-style React client (chat + voice mode). See its own README for details |
+| `index.html`        | Legacy minimal UI — one button, no build step required          |
 
 ## Prerequisites
 
@@ -41,42 +43,70 @@ Open `config.py` and edit:
 - `VOICE_ID` — optional, pick a voice from your ElevenLabs Voice Library
 - `PDF_PATH` — optional, leave as `None` if you don't want to give it a document
 
-## 4. Create the agent
+## 4. Create (or update) the agent
 
-Without a PDF:
+Create a new agent, without a PDF:
 ```bash
 python setup_agent.py
 ```
 
-With a PDF (as context/knowledge base):
+Create a new agent, with a PDF (as context/knowledge base):
 ```bash
 python setup_agent.py --pdf path/to/document.pdf
 ```
 
 This prints an `AGENT_ID`. Copy it.
 
-## 5. Run the voice UI
+Already have an agent and just changed `config.py` or `prompts.py`? Update
+it in place instead of creating a new one:
+```bash
+python setup_agent.py --agent-id agent_xxx
+```
 
-Open `index.html` and paste your `AGENT_ID` into the `agent-id="..."`
-attribute on the `<elevenlabs-convai>` tag. Then either:
+## 5. Run the UI
 
-- Double-click `index.html` to open it directly in a browser, **or**
-- Serve it locally:
-  ```bash
-  python -m http.server 8000
-  ```
-  and visit `http://localhost:8000`
+**Current UI — `elevenlabs-chat/`** (React, chat + full-screen voice mode):
 
-Click the widget button, allow microphone access, and start talking —
-you'll hear the agent respond in real time and can interrupt it mid-sentence.
+```bash
+cd elevenlabs-chat
+npm install          # first time only
+```
+
+Put your `AGENT_ID` in `elevenlabs-chat/.env.local`:
+```
+VITE_ELEVENLABS_AGENT_ID=agent_xxx
+```
+
+Then:
+```bash
+npm run dev
+```
+
+and visit `http://localhost:5173`. See `elevenlabs-chat/README.md` for how
+it's built.
+
+**Legacy UI — `index.html`** (no build step, one button):
+
+Paste your `AGENT_ID` into the `agent-id="..."` attribute on the
+`<elevenlabs-convai>` tag, then either double-click `index.html` to open it
+directly in a browser, or serve it locally:
+```bash
+python -m http.server 8000
+```
+and visit `http://localhost:8000`.
+
+Either way: click the widget/button, allow microphone access, and start
+talking — you'll hear the agent respond in real time and can interrupt it
+mid-sentence.
 
 ## Notes
 
 - If your agent has **authentication enabled** (a private agent), the raw
   `agent-id` embed won't work from the browser directly — you'll need a
   small backend endpoint that calls `get_signed_url()` with your API key
-  and passes that signed URL to the widget instead.
-- Re-run `setup_agent.py` any time you change `config.py` to create a new
-  agent with the updated settings (it creates a new agent each run rather
-  than editing in place — save the printed `AGENT_ID` you want to keep).
+  and passes that signed URL to the UI instead. (Not built yet in
+  `elevenlabs-chat/` — see its README's "Not built yet" section.)
+- `setup_agent.py --agent-id agent_xxx` updates that agent's prompt and LLM
+  in place; running without `--agent-id` always creates a brand new agent
+  with its own ID — save the printed `AGENT_ID` you want to keep.
 - LLM usage is billed from your ElevenLabs account credits, not a separate key.

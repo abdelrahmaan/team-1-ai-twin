@@ -1162,3 +1162,898 @@ Caption: Figure B.6 Building height
 </figure>
 
 *Page B 19*
+
+--- Page 40 ---
+To calculate the total allowable building height, the allowable number of floors, as defined by the affection plan or DCR, shall be multiplied by 6 m per floor. This does not impose restrictions on single floor heights.
+
+Example: For a building with G+10 floors limit, the maximum allowable height shall be calculated as 11 (the number of floors) × 6 m (the factor) = 66 m maximum building height. See Figure B.7.
+
+Parts of buildings and installations may exceed the maximum allowable height provided that this increase does not conflict with DCAA or DCR requirements. These parts include:
+
+a) ornamental elements such as minarets, dome and towers that are embellished in traditional and aesthetic patterns;
+
+b) chimneys and smokestacks, water reservoirs, elevator shafts, stairways, radio and television aerials, wind towers, pergolas, helipads and roof shading devices;
+
+c) advertisement boards conforming to Authority regulations for advertising (see **E.10.9** for restrictions on advertising within façades).
+
+When helipads are provided on buildings, they shall conform to standard specifications approved by DCAA.
+
+<figure type="technical_illustration" title="Figure B.7 Example of allowable building height calculation">
+Axonometric line drawing of a stepped tower built up from stacked pale-teal floor slabs, illustrating the G+10 worked example.
+- Lower mass — a wide two-storey podium block, floors numbered **1** and **2** on the near right edge
+- Upper mass — a narrower tower set back on the podium, its floor slabs numbered upward **3, 5, 7, 9, 11** on the right edge (odd numbers legible; eleven slabs total)
+- **01: Maximum allowable total building height** — dimension line at the right running the full height of the stack, annotated **<=66 m**
+- Each slab is drawn as a thin horizontal plate with a white gap between, emphasising floor-by-floor stacking
+
+**Key**
+
+| No. | Element |
+| --- | --- |
+| 01 | Maximum allowable total building height |
+
+Caption: Figure B.7 Example of allowable building height calculation
+</figure>
+
+*Page B 20*
+
+--- Page 41 ---
+#### B.4.2.3 Building setbacks
+
+The building setback requirements in the affection plan or DCR shall take precedence over the setback requirements in this section.
+
+When setback limitations for the plot or development are not defined, setbacks shall be calculated from the plot limit to the face of buildings in accordance with Table B.1.
+
+| Building height by number of floors | Setback from neighbour (X) (see Figure B.8) (m) | Setback from road (see Figure B.9) (m) |
+| --- | --- | --- |
+| Basement | 0 | 0 |
+| Ground (G) | 3 | 0 |
+| G+1 to G+3 | 3 | 0 |
+| G+4 | 3.75 | 0 |
+| G+5 | 4.50 | 0 |
+| G+6 | 5.25 | 0 |
+| G+7 | 6 | 0 |
+| G+8 | 6.75 | 0 |
+| G+9 | 7.50 | 0 |
+| G+10 and above | 7.50 | 0 |
+
+*Table B.1 Setback calculation table*
+
+Setbacks shall be calculated from ground floor and above.
+
+Allowance for zero setback from neighbours shall be according to each affection plan or development DCR. Zero setback between two neighbouring retail plots is allowed unless otherwise defined in the affection plan or DCR. This only applies when both plots have retail use classification and for dedicated retail occupancy floors.
+
+<figure type="technical_drawing" title="Figure B.8 Setback from neighbours">
+Schematic elevation of two teal multi-storey buildings on adjacent plots, separated by a vertical dashed plot-limit line.
+- **01: Plot** — callout on each building block
+- Plot limit — vertical dashed line running down between the two buildings
+- **X** — horizontal dimension marked twice at ground level, once on each side of the dashed plot limit, showing the setback from the plot boundary to each building face
+- Figures — small human silhouettes at the base of the left building for scale
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| 01 | Plot |
+| X | Setback from neighbour (see Table B.1) |
+| dashed line | Plot limit |
+
+Caption: Figure B.8 Setback from neighbours
+</figure>
+
+<figure type="technical_drawing" title="Figure B.9 Zero setback facing road">
+Schematic elevation of a teal multi-storey building whose face sits directly on the plot limit at the road frontage.
+- **01: Plot** — callout on the building block
+- Plot limit — vertical dashed line coincident with the building face, i.e. no setback dimension is shown
+- Street furniture — a tree and a small parked car outlined at the right, indicating the road side
+- Figures — human silhouettes at ground level for scale
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| 01 | Plot |
+| dashed line | Plot limit |
+
+Caption: Figure B.9 Zero setback facing road
+</figure>
+
+*Page B 21*
+
+--- Page 42 ---
+Setbacks are shown in plan view in Figure B.10. Setbacks shall also allow for fire separation between buildings and fire truck access routes. To prevent external fire spread, the building, shall be physically separated from adjacent plots/buildings or external walls and openings of the building shall be fire resistance rated (see Sections 2.7 and 2.8, Ch. 1 of UAE FLSC **[Ref. B.1]**).
+
+Fire truck access shall be provided between buildings and around buildings as required by Ch. 2 of UAE FLSC **[Ref. B.1]**. This vehicle access might need to be accommodated within the plot limits.
+
+Where high-rise and super high-rise buildings (as defined by UAE FLSC **[Ref. B.1]**) are built on a podium and the distance from fire truck accessway to the façade of the high-rise/super high-rise exceeds 30 m, fire truck access to the podium shall be provided as required by Section 2.8, Ch. 2 of UAE FLSC **[Ref. B.1]**.
+
+Setbacks from sikkas shall be calculated from the centre of the sikka (see Figure B.11). When the sikka width is more than 6 m, the maximum applicable width from the centre of the sikka is 3 m. If the building setback from the plot limit is found to be 1.5 m or less, no setback is required.
+
+Plots neighbouring cemeteries shall provide a minimum setback of 3 m.
+
+Plots adjacent to metro stations or metro infrastructure shall conform to the RTA railway protection code for the emirate of Dubai **[Ref. B.2]**.
+
+<figure type="technical_drawing" title="Figure B.10 Setback plan">
+Plan view of a plot with a teal building footprint, showing the plot limit as a dotted rectangle and the setback line as a dashed teal rectangle inside it.
+- **01: Building footprint** — the solid teal L-shaped mass occupying the centre of the plot
+- **02: Neighbour** — callouts at both left and right edges, with **X** dimensions marked from the plot limit inward to the setback line on each side
+- **03: Allowable projection** — leader pointing to a small element that oversails the setback line at lower right
+- **04: Road** — the pale band across the bottom of the drawing
+- **Y** — dimension at top, from the sikka centreline (chain-dashed line running along the top edge) to the setback line
+- Plot limit — dotted black rectangle; Setback line — dashed teal rectangle set in from it
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| 01 | Building footprint |
+| 02 | Neighbour |
+| 03 | Allowable projection |
+| 04 | Road |
+| X | Setback from neighbour (see Table B.1) |
+| Y | Setback from centre of sikka |
+| dotted line | Plot limit |
+| dashed teal line | Setback line |
+
+Caption: Figure B.10 Setback plan
+</figure>
+
+<figure type="technical_drawing" title="Figure B.11 Setback from sikka">
+Schematic elevation of two teal multi-storey buildings facing each other across a sikka.
+- **01: Plot** — callout on each of the two building blocks
+- Sikka centreline — chain-dashed vertical line midway between the buildings
+- **Y** — dimension marked twice at ground level, from the sikka centreline out to each building face
+- Plot limit — vertical dashed lines at each building face
+- Figures — human silhouettes in the sikka for scale
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| 01 | Plot |
+| Y | Setback from centre of sikka |
+| dashed line | Plot limit |
+
+Caption: Figure B.11 Setback from sikka
+</figure>
+
+*Page B 22*
+
+--- Page 43 ---
+The distance between multiple buildings on the same plot shall be equal to the setback required for both buildings from a neighbouring building plot, identified as (X) in Figure B.12, measured from the least horizontal distance between buildings. This distance shall be not less than 3 m between buildings height of ground floor only.
+
+<figure type="technical_drawing" title="Figure B.12 Setbacks between buildings in same plot">
+Plan view of a single plot containing two separate teal building footprints, with the plot limit as a dotted rectangle and the setback line as a dashed teal rectangle within it.
+- **01: Building footprint** — callout on each of the two masses: an upper-right block and a larger lower-left L-shaped block
+- **X** (internal) — dimension marked twice across the gap between the two footprints at the centre of the plan, showing the required separation between buildings on the same plot
+- **02: Neighbour** — callouts at the left and right edges, each with an **X** dimension from the plot limit in to the setback line
+- **03: Allowable projection** — leader to an element oversailing the setback line at lower right
+- **04: Road** — pale band across the bottom
+- **Y** — dimension at the top from the sikka centreline (chain-dashed) to the setback line
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| 01 | Building footprint |
+| 02 | Neighbour |
+| 03 | Allowable projection |
+| 04 | Road |
+| X | Setback from neighbour, internal setback between buildings |
+| Y | Setback from centre of sikka |
+| dotted line | Plot limit |
+| dashed teal line | Setback line |
+
+Caption: Figure B.12 Setbacks between buildings in same plot
+</figure>
+
+*Page B 23*
+
+--- Page 44 ---
+The following structures shall be allowed within setbacks up to the plot limit as shown in Figure B.13:
+
+a) plot boundary wall/fence;
+
+b) site enhancement landscape and hardscape;
+
+c) ring main unit (RMU) rooms and substations as required by service Authorities;
+
+d) basement and building substructure;
+
+e) pergolas and light weight parking shading structures;
+
+f) uncovered car parking and roadways;
+
+g) security and/or guard rooms;
+
+h) retail structures on plots where the neighbour is also a retail occupancy.
+
+Such arrangements shall not obstruct exit discharge to fire vehicle access way/public road (if any).
+
+<figure type="technical_drawing" title="Figure B.13 Allowed construction within setback">
+Plan view of a plot showing which structures may sit between the setback line and the plot limit.
+- **01: Building footprint – above ground** — the darker teal rectangle at the centre, sitting inside the dashed teal setback line
+- **02: Basement & building substructure** — leader to the paler teal area extending out beyond the above-ground footprint toward the plot limit
+- **03: Sikka** — the pale band across the top of the plan
+- **04: Road** — the pale band across the bottom
+- **05: RMU rooms substations** — leader to a small teal block placed at the lower left, within the setback zone and crossing the setback line
+- **06: Security or guard rooms** — leader to a small teal block at the lower right, likewise within the setback zone
+- Plot limit — dotted black rectangle; Setback line — dashed teal rectangle inside it
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| 01 | Building footprint – above ground |
+| 02 | Basement & building substructure |
+| 03 | Sikka |
+| 04 | Road |
+| 05 | RMU rooms substations |
+| 06 | Security or guard rooms |
+| dotted line | Plot limit |
+| dashed teal line | Setback line |
+
+Caption: Figure B.13 Allowed construction within setback
+</figure>
+
+*Page B 24*
+
+--- Page 45 ---
+#### B.4.2.4 Building areas
+
+##### B.4.2.4.1 Gross area (GA)
+
+Gross area (GA) is the floor area within the inside perimeter of the external walls of a building. The measurement excludes shafts and courtyards, but includes corridors, stairways, ramps, closets, base of atria (or similar voids) and the thickness of interior walls, columns or other features.
+
+GA is illustrated in Figure B.14. The highlighted areas are those included in the definition.
+
+GA is used for occupant load calculations as defined in Table B.2, elevator exemptions in **Part C**, in addition to other requirements in the DBC.
+
+<figure type="technical_drawing" title="Figure B.14 GA plan">
+Typical residential floor plan drawn in black line with the areas counted in GA filled solid teal; excluded areas (shafts, balconies) left white.
+- **01: Residential unit** — twelve teal-filled apartment footprints arranged around the perimeter of the floor plate, labelled 01 throughout
+- **02: Elevator lobby** — teal-filled central lobby serving the lift group at the core
+- **03: Corridor** — teal-filled circulation spine running between the two core groups and out to the units
+- **04: Balcony** — callout at lower right on a white (excluded) projecting area
+- **05: Service room** — small teal-filled room within the core
+- **06: Staircase** — teal-filled stair enclosure within the core
+- Core — two mirrored groups of lift shafts drawn with diagonal cross-hatching (shafts, excluded), flanked by the stairs and service rooms
+
+**Key**
+
+| No. | Space |
+| --- | --- |
+| 01 | Residential unit |
+| 02 | Elevator lobby |
+| 03 | Corridor |
+| 04 | Balcony |
+| 05 | Service room |
+| 06 | Staircase |
+
+Caption: Figure B.14 GA plan
+</figure>
+
+*Page B 25*
+
+--- Page 46 ---
+##### B.4.2.4.2 Net area (NA)
+
+Net area (NA) is the actual occupied area, not including unoccupied accessory areas such as corridors, stairways, ramps, toilet rooms, mechanical rooms and closets.
+
+The calculation of NA is illustrated in the sample plan shown in Figure B.15.
+
+NA is used for occupant load calculations as defined in Table B.2 and parking rates defined in B.7.2.6.1, in addition to other requirements in the DBC.
+
+<figure type="technical_drawing" title="Figure B.15 Example of net area for different occupancies">
+Black-line floor plan of a hotel-type floor plate with the net area of each occupancy shaded; circulation, cores and service spaces left white. Two shading tones are used - pale teal and darker teal - to distinguish occupancies.
+- **01: Meeting room 1** — pale teal block at upper left
+- **02: Lobby** — white (excluded) space at upper centre
+- **03: Ballroom** — large pale teal angled block at upper right
+- **04: Prayer room** — darker teal block at mid left
+- **05: Toilets** — white (excluded) space at centre, adjacent to the cores
+- **06: Meeting room 2** — pale teal block at lower left
+- **07: Restaurant** — darker teal block at lower centre
+- **08: Kitchen** — white (excluded) space at lower right
+- Cores — two stair and lift groups drawn with cross-hatching at the centre of the plan, left unshaded
+
+**Key**
+
+| No. | Space |
+| --- | --- |
+| 01 | Meeting room 1 |
+| 02 | Lobby |
+| 03 | Ballroom |
+| 04 | Prayer room |
+| 05 | Toilets |
+| 06 | Meeting room 2 |
+| 07 | Restaurant |
+| 08 | Kitchen |
+
+Caption: Figure B.15 Example of net area for different occupancies
+</figure>
+
+*Page B 26*
+
+--- Page 47 ---
+#### B.4.2.5 Balconies, building projections and terraces
+
+##### B.4.2.5.1 Limitations
+
+A balcony, building projection or terrace (see Figure B.16 and Figure B.17) can be provided along the whole or part of the building façade constructed on the side of the plot that overlooks a road or neighbours. Balconies, building projections and terraces shall meet the following requirements and limitations.
+
+a) The affection plan or DCR shall take precedence over the provisions in this subclause.
+
+b) A balcony or projecting building element shall be situated at an elevated level from ground floor, not less than 3 m from FFL of sidewalks and footpaths as shown in Figure B.16.
+
+c) Projections from vehicle roads shall be set back a minimum of 0.6 m from the edge of vehicle road, or a height clearance of not less than 5.5 m shall be maintained from road level as shown in Figure B.16.
+
+d) Projections above fire truck accessways shall be not less than 4.5 m in height from road level in accordance with Section 2, Ch. 2 of UAE FLSC **[Ref. B.1]**.
+
+e) Projections outside the plot boundary are permitted on the road-facing side when the width of road in which the balcony or projection protrudes exceeds 9 m.
+
+f) Balconies and building projections shall be limited to 10% of the facing street width beyond the plot limit and 1.8 m maximum projection into the ROW as shown in Figure B.16.
+
+g) The minimum horizontal distance of balconies and building projections from other adjacent buildings, structures or neighbouring plots shall maintain the minimum required setback (see Figure B.17).
+
+Plots adjacent to metro stations or metro infrastructure shall conform to the RTA railway protection code for the emirate of Dubai **[Ref. B.2]**.
+
+Privacy of neighbouring plots should be taken into account when setting the location and orientation of balconies.
+
+A privacy partition shall be provided between connected balconies of different residential units.
+
+*Page B 27*
+
+--- Page 48 ---
+<figure type="technical_drawing" title="Figure B.16 Projection from ROW">
+Sectional elevation through two multi-storey buildings facing each other across a street, drawn in black line with teal-filled slabs, balconies and figures. A break line interrupts the centre of the section.
+
+Dimensions and annotations, left building:
+- **<=10% of x / <=1.8 m** — horizontal dimension at an upper-level balcony, capping the projection beyond the plot limit at 10% of the street width or 1.8 m, whichever is less
+- **>=0.6 m** — horizontal dimension at a lower balcony, the minimum set back from the edge of the vehicle road
+- **>=5.5 m** — vertical dimension at far left, from road level up to the underside of the projection over the vehicle road
+- **>=3 m** — vertical dimension from sidewalk level to the underside of the lowest balcony over the footpath
+- **x** — horizontal dimension across the roadway, labelled as road width
+- **01: Road level** — level-triangle datum symbol at the carriageway, beside a teal car
+- **03: Plot limit** — leader to the vertical dashed line at the building face
+
+Dimensions and annotations, right building:
+- **<=1.8 m** — horizontal dimension at an upper-level balcony
+- **>=3 m** — vertical dimension at far right, from sidewalk level to the underside of the lowest projection
+- **02: Sidewalk level** — level-triangle datum symbol at the footpath
+
+Other content:
+- Roofs — pitched trusses drawn at the top of both buildings
+- Occupants — teal human silhouettes standing on the sidewalks at both sides for scale; a teal car on the left carriageway
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| 01 | Road level |
+| 02 | Sidewalk level |
+| 03 | Plot limit |
+| X | Road width |
+
+Caption: Figure B.16 Projection from ROW
+</figure>
+
+*Page B 28*
+
+--- Page 49 ---
+<figure type="technical_drawing" title="Figure B.17 Projections within setbacks">
+Sectional elevation showing a building projection oversailing the setback zone next to a neighbouring plot.
+- **01: Plot limit, if applicable** — leader to the vertical dashed line at the left
+- **02: Neighbour** — the solid pale-teal mass at the far left, representing the adjacent property
+- **03: Minimum required setback** — horizontal dimension arrow running from the plot limit to the face of the projecting element
+- **>=3 m** — vertical dimension from ground level to the underside of the projection
+- **04: Ground level** — level-triangle datum symbol at the base, right
+- Occupants — three teal human silhouettes standing at ground level beneath and beyond the projection, for scale
+
+**Key**
+
+| No. | Item |
+| --- | --- |
+| 01 | Plot limit, if applicable |
+| 02 | Neighbour |
+| 03 | Minimum required setback |
+| 04 | Ground level |
+
+Caption: Figure B.17 Projections within setbacks
+</figure>
+
+##### B.4.2.5.2 Guardrails for fall protection
+
+Guardrails are required for any space, walking or standing which is elevated 760 mm above the FFL, with the exception of:
+
+a) the loading side of loading docks;
+
+b) the audience side of stages and raised platforms, including stairs leading up to the stage and raised platforms;
+
+c) raised stage and platform floor areas, such as runways, ramps and side stages;
+
+d) vertical openings in the performance area of stages and platforms;
+
+e) elevated walking surfaces associated with stages and platforms for access/use of special lighting or equipment; and
+
+f) along vehicle service pits not accessible to the public.
+
+The guardrail height from FFL (or lowest stepping feature, A in Figure B.18) shall be not less than 1,200 mm.
+
+The separation distance between vertical posts or members (see Figure B.18), curved frames or design features, of balcony, guardrail or handrail shall not allow the passage of a 100 mm diameter sphere.
+
+Horizontal climbable elements are not permitted within 865 mm height of the bottom of the guardrail, i.e. (B) in Figure B.18.
+
+If the design requires any gap between finished floor surface and the bottommost horizontal component of the railing (see Figure B.18), the gap shall be not more than 100 mm.
+
+The balcony, handrail, guardrail assembly shall be able to withstand the loads specified in ASCE/SEI 7-16.
+
+If the design demands usage of glass panels in the balcony construction, such glass shall provide containment and withstand the loads specified in ASCE/SEI 7-16 (see **E.9.2**).
+
+*Page B 29*
+
+--- Page 50 ---
+<figure type="technical_illustration" title="Figure B.18 Guardrail specifications">
+Two axonometric line drawings side by side of a balcony corner with its guardrail, drawn in black line on teal-filled slabs. Both carry the same dimension set.
+
+**(a) Guardrail with stepping feature within 865 mm from FFL** — left drawing
+- Guardrail type — vertical baluster infill between a top rail and a bottom rail, mounted on the balcony slab edge
+- **01: Gaps more than 100 mm not acceptable** — leaders to the top rail junction and to the baluster spacing; annotated **<=100** at the top rail and again at the baluster gap on the left return
+- **02: Stepping feature within 865 mm of base of guardrail not acceptable** — leader to the raised slab nib at the foot of the guardrail
+- **A >= 1.200** — overall vertical dimension at the right, from the lowest stepping feature to the top of the rail
+- **B >= 865** — vertical dimension at the right, the no-climb zone measured from the base of the guardrail
+- **<=100** — small vertical dimension at the bottom right, the maximum gap between finished floor surface and the bottommost horizontal rail member
+
+**(b) Guardrail without stepping feature within 865 mm from FFL** — right drawing
+- Guardrail type — full-height glass panel infill between posts, with a top rail
+- **01: Gaps more than 100 mm not acceptable** — leader to the top rail; annotated **<=100**
+- **02** — leader to the slab edge at the base
+- **A >= 1.200**, **B >= 865**, **<=100** — same dimension set as (a), taken at the right-hand side
+
+**Key**
+
+| No. | Note |
+| --- | --- |
+| 01 | Gaps more than 100 mm not acceptable |
+| 02 | Stepping feature within 865 mm of base of guardrail not acceptable |
+
+Caption: Figure B.18 Guardrail specifications
+</figure>
+
+*Page B 30*
+
+--- Page 51 ---
+##### B.4.2.5.3 Access doors
+
+Balconies and terraces shall not have self-closing, self-latching or self-locking doors, which can accidentally lock people outside in the balcony or terrace.
+
+#### B.4.2.6 Plot coverage
+
+Plot coverage shall be calculated as the horizontal area occupied by all main and annex buildings on the same plot, calculated from the external surfaces of external walls or useful roofed balconies in the ground or upper floors, whichever have more floor projections.
+
+The following shall be excluded (see Figure B.19):
+
+a) lightweight structures such as a canopy, parking shade(s), pergola(s); and
+
+b) ornamental and non-accessible building projections such as roof eaves, window shades.
+
+<figure type="technical_drawing" title="Figure B.19 Plot coverage">
+Plan view of a site within a dashed plot-limit rectangle. Areas counted in plot coverage are filled pale blue-grey; excluded lightweight and ornamental elements are shown in outline only.
+- **01: Building** — two pale-filled masses, a larger block at left and a narrower block at centre right, both counted in plot coverage
+- **02: Pergola** — outlined hatched square near the centre, not counted
+- **03: Non-functional projection** — leader at top right to a thin outlined element on the building edge, not counted
+- **04: Parking canopy** — outlined rectangle at top right over the parking, not counted
+- **05: Parking** — hatched bays at the right of the plot
+- **06: Annex building** — pale-filled block at lower right, counted in plot coverage
+- **07: Roof eaves** — leader at the bottom to an outlined edge strip, not counted
+- Landscape — outlined tree canopies and a kidney-shaped pool drawn between the two main blocks, not counted
+- Plot limit — dashed rectangle enclosing the whole site
+
+**Key**
+
+| No. | Item |
+| --- | --- |
+| 01 | Building |
+| 02 | Pergola |
+| 03 | Non-functional projection |
+| 04 | Parking canopy |
+| 05 | Parking |
+| 06 | Annex building |
+| 07 | Roof eaves |
+| dashed line | Plot limit |
+
+Caption: Figure B.19 Plot coverage
+</figure>
+
+*Page B 31*
+
+--- Page 52 ---
+### B.4.3 Building floors general requirements
+
+#### B.4.3.1 Ground floor
+
+Ground floor use allowance shall conform to planning regulations. A building or facility may have more than one ground floor where a split-level entrance has been provided and where a building plot has significant level difference.
+
+The ground floor shall be connected to the adjacent public ways by lobbies. The number and location of exits discharging directly from the building to outside shall conform to Section 3.10, Ch. 3 of UAE FLSC **[Ref. B.1]**. The points of exit discharge shall be separated from each other on plan by one third (sprinklered buildings) or one half (unsprinklered buildings) of the largest measurements of the building diagonal distance (see Figure B.20).
+
+An emergency command centre conforming to Table 1.9, Ch. 1 and Section 2.9, Ch. 2 of UAE FLSC **[Ref. B.1]** shall be provided in malls, amusement park, high-rise and super high-rise buildings. The emergency command centre may be shared with a security room, rest area or control room, provided that it meets emergency command centre specifications.
+
+The emergency command centre shall be at ground floor and separated from the remainder of the building by a 1 h fire barrier constructed in accordance with Ch. 1 of UAE FLSC **[Ref. B.1]**. The entrance to the emergency command centre shall be on the exterior of the building along the fire accessway or if this is not feasible, at the main entrance lobby of the building. Emergency command centres shall meet the minimum room sizes specified in B.5.2.
+
+<figure type="technical_drawing" title="Figure B.20 Building exit separation">
+Two black-line floor plans side by side, each showing a building outline with two stair/exit locations and construction lines marking the diagonal.
+- Left plan — a simple rectangular floor plate with two stairs drawn inside; **A** labels the long diagonal of the rectangle, struck corner to corner with thin extension lines; **B** labels the direct distance between the two exit doors
+- Right plan — an irregular, faceted floor plate with two exits; **A** again marks the largest diagonal measurement across the plan, **B** the direct distance between exit doors, showing the rule applies to non-rectangular footprints
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| A | Building diagonal distance |
+| B | Direct distance between exit doors |
+
+> NOTE: B = 1/3 A for sprinklered buildings; B = 1/2 A for unsprinklered buildings
+
+Caption: Figure B.20 Building exit separation
+</figure>
+
+*Page B 32*
+
+--- Page 53 ---
+#### B.4.3.2 Basements
+
+The space use shall conform to planning regulations.
+
+Basement floors shall not extend beyond the plot limits.
+
+The basement shall be connected to the building by means of vertical circulation (staircases/elevators) in accordance with Ch. 1 to Ch. 10 of UAE FLSC **[Ref. B.1]**.
+
+The basement slab soffit level shall not extend 1.2 m above the building gate level as shown in Figure B.21.
+
+#### B.4.3.3 Podium
+
+Building podiums shall conform to planning regulations.
+
+When podium floors are used for habitable and occupiable spaces, these spaces shall be designed as indoor spaces with building envelope, acoustic treatment and ventilation/thermal comfort as required by **Part E** and **Part H**.
+
+<figure type="technical_drawing" title="Figure B.21 Basement height from gate level">
+Schematic section through the lower storeys of a building and the adjacent ground, drawn in thin black line with teal-filled slabs and level-triangle datum symbols.
+- **01: Upper floor** — datum symbol on the uppermost slab shown, at top right
+- **02: Ground floor** — datum symbol on the ground floor slab, at mid right
+- **04: Gate level** — datum symbol on the external ground at the left, outside the building
+- **<=1.2 m** — vertical dimension between the gate level (04) and the underside/soffit line of the ground floor slab, capping how far the basement slab soffit may rise above gate level
+- **03: Basement floor** — datum symbol on the lowest slab shown, at bottom right
+- Vertical elements — external wall and an internal core wall drawn as thin double lines running through the storeys
+
+**Key**
+
+| No. | Element |
+| --- | --- |
+| 01 | Upper floor |
+| 02 | Ground floor |
+| 03 | Basement floor |
+| 04 | Gate level |
+
+Caption: Figure B.21 Basement height from gate level
+</figure>
+
+*Page B 33*
+
+--- Page 54 ---
+#### B.4.3.4 Roof
+
+The space use shall conform to planning regulations.
+
+Accessible roofs shall be provided with life safety features such as fall protection and guardrails in accordance with B.4.2.5.2.
+
+Water proofing and thermal insulation material shall be fitted on the roof deck in order to protect it from water leaks (see **E.7.3.2**) and solar gain effects (see **E.5.2.3**).
+
+Structures at roof level shall not exceed 50% of the roof floor area as shown in Figure B.22.
+
+Roof structures shall be set back a minimum of 1.5 m from the building envelope. Staircases and elevator rooms are excluded from the 1.5 m setback requirement, but they shall be calculated as part of the 50% construction area.
+
+Roof structures occupying more than 50% of the roof floor area or not provided with setback shall be treated as a regular floor.
+
+<figure type="technical_drawing" title="Figure B.22 Roof coverage and setback">
+Plan view of a rectangular roof, drawn in black line with the roof structures filled teal.
+- **03: Roof** — the full rectangular roof plate, the outer boundary of the drawing
+- **01: Staircase or elevator room** — leader to the smaller teal block at the upper left, drawn with a dashed outline to show it is exempt from the 1.5 m setback but still counted in the 50% area
+- **02: Roof structure not more than 50% of the roof area** — leader to the large teal block occupying the centre of the roof
+- **>=1.5 m** — dimension marked three times: at the top edge, at the left edge and at the bottom edge, each running from the roof/building envelope edge in to the face of the roof structure
+
+**Key**
+
+| No. | Element |
+| --- | --- |
+| 01 | Staircase or elevator room |
+| 02 | Roof structure not more than 50% of the roof area |
+| 03 | Roof |
+
+Caption: Figure B.22 Roof coverage and setback
+</figure>
+
+*Page B 34*
+
+--- Page 55 ---
+## B.5 Minimum space requirements
+
+### B.5.1 Occupant loads
+
+Occupant load factors shall be determined in accordance with Table B.2.
+
+| Occupancy | Use | Occupant load factor (m2 per person unless otherwise stated) | Area used for calculation |
+| --- | --- | --- | --- |
+| Assembly | Concentrated – ballrooms, multipurpose-assembly halls | 0.65 | Net area |
+| Assembly | Mosques, prayer halls and prayer rooms | 0.9 for prayer area | Net area |
+| Assembly | Less concentrated – outdoor buildings, restaurants, dining areas, seated waiting areas | 1.4 | Net area |
+| Assembly | Conference rooms, meeting rooms | 1.4 | Net area |
+| Assembly | Exhibition halls, production studios | 1.4 | Net area |
+| Assembly | Bench seating | 455 mm linear | Net area |
+| Assembly | Fixed seating spaces (cinemas, theatres and similar) | According to number of fixed seats provided | Net area |
+| Assembly | Waiting areas – standing | 0.65 | Net area |
+| Assembly | Kitchens (e.g. in restaurants, not private residential) | 9.3 | GA |
+| Assembly | Library – reading areas | 4.6 | Net area |
+| Assembly | Library – stack areas | 9.3 | GA |
+| Assembly | Swimming pools – water surface | 4.6 | GA |
+| Assembly | Swimming pools – deck | 2.8 | GA |
+| Assembly | Exercise room – without equipment | 1.4 | GA |
+| Assembly | Exercise room – with equipment | 4.6 | GA |
+| Assembly | Stages | 1.4 | Net area |
+| Assembly | Gaming, amusement arcades | 1.0 | GA |
+| Assembly | Skating rinks | 4.6 | GA |
+| Assembly | Food courts – seating areas | 1.4 | Net area |
+| Assembly | Airport waiting areas | 1.4 | GA |
+| Assembly | Airport baggage claim | 1.9 | GA |
+| Assembly | Art galleries, museums | 5.0 | GA |
+| Business | Office – enclosed offices, low concentration | 9.3 | GA |
+| Business | Office – open offices, high concentration | 4.6 | GA |
+
+*Table B.2 Occupant load factor per person*
+
+*Page B 35*
+
+--- Page 56 ---
+| Occupancy | Use | Occupant load factor (m2 per person unless otherwise stated) | Area used for calculation |
+| --- | --- | --- | --- |
+| Retail | Retail shops | 5.6 | GA |
+| Retail | Department stores, multi-level retail | 3.7 | GA |
+| Retail | Floors used for goods not accessed by public | 27.9 | GA |
+| Mall | Mall – less than 14,000 m2 in area | 2.8 | Gross leasable area in accordance with UAE FLSC [Ref. B.1] |
+| Mall | Mall – more than 14,000 m2 in area | 3.3 | Gross leasable area in accordance with UAE FLSC [Ref. B.1] |
+| Industrial | Factories | 9.3 | GA |
+| Storage | Warehouse | 27.9 | GA |
+| Educational | Classrooms | 1.9 | Net area |
+| Educational | Laboratories, vocational | 4.6 | Net area |
+| Residential | Accommodation, shared sleeping spaces | 5.0 | Net area |
+| Residential | Labour accommodation – sleeping spaces | 3.7 | Net area |
+| Healthcare | — | Refer to DHA regulations and guidelines [Ref. B.3 to Ref. B.18] | — |
+
+*Table B.2 Occupant load factor per person (continued)*
+
+The occupant load factors in Table B.2 generally align with UAE FLSC **[Ref. B.1]** with the exception of residential. However, exit widths and number of exits from a room, space, floor and building shall be calculated using the occupant load factors in Table 3.13, Ch. 3 of UAE FLSC **[Ref. B.1]**.
+
+Any space or building not listed in Table B.2 above shall conform to the occupant load factors noted in Table 3.13, Ch. 3 of UAE FLSC **[Ref. B.1]**.
+
+*Page B 36*
+
+--- Page 57 ---
+### B.5.2 Minimum room sizes
+
+The net area and clear dimension of a room/space shall be not less than the minimum sizes given in Table B.3. Minimum sizes for some other occupancies are given in B.9.
+
+| Occupancy/use | Minimum area (m2) | Minimum dimension – length and width of a room (m) |
+| --- | --- | --- |
+| Residential living space (bedroom, living room) | 10.5 | 3 (See Figure B.23) |
+| Residential studio (including bathroom and kitchen space) | 21 | 3 |
+| Housekeeper's/guard rooms (single occupancy only exclusive of toilet area) | 4.5 | 2.1 |
+| Retail shop | — | 2.4 |
+| Retail showroom | — | 9 |
+| Enclosed office | — | 2.4 |
+| Enclosed kitchen | 5.4 | 1.8 |
+| Bathroom and toilets | Shall meet fixture clearances noted in B.8.1.5 | Shall meet fixture clearances noted in B.8.1.5 |
+| Toilet stalls | Shall conform to B.8.1.4 | Shall conform to B.8.1.4 |
+| Hotel establishment | Refer to applicable DTCM classification criteria [Ref. B.19 to Ref. B.36] | Refer to applicable DTCM classification criteria [Ref. B.19 to Ref. B.36] |
+| Healthcare facilities | Refer to DHA regulations and guidelines [Ref. B.3 to Ref. B.18] | Refer to DHA regulations and guidelines [Ref. B.3 to Ref. B.18] |
+| Fire pump rooms | Refer to Table 1.9, Ch. 1 of UAE FLSC [Ref. B.1] for minimum room sizes dependent upon equipment selected and other requirements such as proximity to exit stairways. | Refer to Table 1.9, Ch. 1 of UAE FLSC [Ref. B.1] |
+| Emergency command centre | 19 | 3 |
+
+*Table B.3 Minimum room sizes*
+
+<figure type="technical_drawing" title="Figure B.23 Minimum residential living space dimensions">
+Plan of a small bedroom drawn in black line with pale-teal walls, showing the minimum room dimensions.
+- **>=3.0 m** — horizontal dimension across the top of the plan, the minimum room width
+- **>=3.0 m** — vertical dimension at the left of the plan, the minimum room length
+- **A >= 10.5 m2** — annotation in the open floor area, the minimum room area
+- Furniture — a double bed drawn centrally against the top wall, flanked by two circular bedside tables; a window opening indicated in the top wall
+- Door — a single leaf with its swing arc drawn at the bottom left of the plan
+
+**Key**
+
+| Item | Meaning |
+| --- | --- |
+| A | Room area |
+
+Caption: Figure B.23 Minimum residential living space dimensions
+</figure>
+
+*Page B 37*
+
+--- Page 58 ---
+The manoeuvring space between kitchen counters or adjacent to a single-sided kitchen counter shall be not less than 1.2 m, as shown in Figure B.24.
+
+<figure type="technical_drawing" title="Figure B.24 Manoeuvring space within kitchen">
+Two drawings of the same kitchen: an interior elevation/perspective at left and a plan at right, both in black line with teal fills.
+- Left (elevation) — a person shown in teal silhouette bending to load a low appliance between two runs of counter; **>=1.2 m** dimension marked across the floor between the opposing counter faces
+- Right (plan) — kitchen plan with counters, a hob drawn as four circles, a sink and an overhead unit; **>=1.2 m** dimension marked across the clear aisle between the counter run and the opposite fitting; the adjoining space is drawn with cross-hatched panels
+
+Caption: Figure B.24 Manoeuvring space within kitchen
+</figure>
+
+### B.5.3 Minimum clear heights
+
+The clear height of a space shall be not less than the minimum values given in Table B.4.
+
+The clear heights shall be calculated from FFL to any structural suspended element or ceiling soffits, as shown in Figure B.25.
+
+| Occupancy | Use | Minimum clear heights (m) |
+| --- | --- | --- |
+| Assembly | Awqat mosque prayer hall | 3.8 |
+| Assembly | Jumaa mosque prayer hall | 5.0 |
+| Assembly | Prayer rooms | 2.7 |
+| Assembly | Ballrooms, multipurpose assembly halls | 2.7 |
+| Business | Offices | 2.5 |
+| Retail, mall | Retail shops/stores, showrooms | 2.5 |
+| Educational | Schools, nurseries and kindergartens – classrooms | 2.7 |
+| Healthcare | — | Refer to DHA regulations and guidelines [Ref. B.3 to Ref. B.18] |
+| Residential, hotel | Living and bedroom spaces | 2.7 |
+
+*Table B.4 Minimum clear heights*
+
+*Page B 38*
+
+--- Page 161 ---
+# ROOMS
+
+## Bathrooms
+
+### Details and fitting out
+
+The former standard valid for movement areas in bathrooms was withdrawn without replacement in 2007, because it inadequately considered the requirements of disabled people. The dimensions given here should therefore be considered as absolute minimums. **The movement areas in bathrooms should generally be based on the 'Accessible building' standard** -> (11) -> p. 21 ff.
+
+The basic bathroom categories are: (guest) **WCs** with WC and washbasin -> (3) - (4), **shower rooms** with shower and basin -> (5) - (6), **bathrooms** with bath, washbasin and WC -> (7) - (8), **full bathrooms** with bath, shower, washbasin and WC -> (10).
+
+Because of the high humidity and resulting **condensation**, the surfaces must be **easy to clean**. Wall and ceiling plaster should be able to absorb and release enough moisture. Floor coverings should be sufficiently **slip-resistant**. If there is no laundry room, the bathroom must be designed with space and connections for a **washing machine**, washer/dryer and laundry basket.
+
+One **earthed socket** is to be provided (next to the mirror). In addition, the following should be included in the design of bathrooms and WCs: cupboards for towels and cleaning materials, lockable medicine cabinet, towel rail (perhaps with additional heating), hand grips above the bath.
+
+<figure type="technical_drawing" title="Figure 1 Space requirements in bathroom (guideline values) / Room between bath and wall">
+Three line drawings in a row. All dimensions in cm unless a metre value is shown.
+
+- **Left panel — space requirements in bathroom (guideline values)**: combined plan and elevation of a WC pan and a wall-hung washbasin. Horizontal dimensions across the top read **41** and **33** (superscripted fraction) with **18** below at the basin; a small mirror/cabinet outline sits above the basin. Vertical dimensions at the left read **80** (basin/mirror zone) and **42** (WC pan). Along the bottom: **>=90**, then **15**, then **1.00**. To the right a narrow vertical element (towel rail or duct) is dimensioned **48** high, with **53** below it, and **11** / **1** with superscripts annotated above.
+- **Centre panel — room between bath and wall**: a figure shown bending forward over the rim of a stippled (tiled) bathtub, one arm reaching down into it, with a dashed outline behind showing the upright posture. Horizontal dimension beneath reads **>=55**, the clear space needed between bath and wall.
+- **Right panel**: a standing figure beside the same stippled bathtub, drying with a towel held behind the back, elbows out. Horizontal dimension beneath reads **1.10**.
+
+Caption: (1) Space requirements in bathroom (guideline values). / Room between bath and wall
+</figure>
+
+<figure type="technical_drawing" title="Figure 2 In the shower / At the washbasin / Bathing and sitting">
+Three body-clearance drawings sharing one baseline, showing the reach envelopes for three bathroom activities.
+
+- **In the shower** (left): a figure bent forward washing a lower leg inside a shower enclosure. Vertical dimension at the left reads **65**; a small dimension at the foot reads **38**. Along the bottom: **30** then **105**.
+- **At the washbasin** (centre): a standing figure with both hands raised to the face in front of a wall mirror, a basin/shelf line at waist height. Vertical dimensions at the left read **45** and **51**, with **17** bracketed alongside. Along the bottom: **50**.
+- **Bathing and sitting** (right): two figures — one reclining full-length in a bathtub with knees raised, one seated upright at the tub end. Along the bottom: **1.70** then **30**. Vertical dimension at the right reads **53**.
+
+Caption: (2) In the shower | At the washbasin | Bathing and sitting
+</figure>
+
+<figure type="floor_plan" title="Figure 3 WC with washbasin">
+Small rectangular room plan, walls drawn as solid black poche, with an inward-swinging door on the right-hand wall shown with its swing arc.
+- Overall width: **>=1.00**
+- Overall depth: **>=2.10**
+- Vertical dimension chain down the left: **20**, **60**, **75**, **55**
+- Fittings, back to front: a washbasin with mirror/cabinet against the top (short) wall, then a WC pan set centrally against the left wall
+
+Caption: (3) WC with washbasin
+</figure>
+
+<figure type="floor_plan" title="Figure 4 WC with handbasin">
+Small rectangular room plan with solid black walls and an inward-swinging door at the lower right.
+- Overall width: **>=1.15**
+- Overall depth: **>=1.65**
+- Vertical dimension chain down the left: **20**, **60**, **20**, **45**, **20**
+- Fittings: a WC pan against the top wall with a shelf/cistern line above it, and a small handbasin below it on the left wall
+
+Caption: (4) WC with handbasin
+</figure>
+
+<figure type="floor_plan" title="Figure 5 Space required for shower">
+Rectangular room plan with solid black walls and an inward-swinging door on the lower wall.
+- Overall width: **>=1.60**, broken down along the top as **20 + 40 + 20 + 80**
+- Overall depth: **>=2.00**, broken down down the left as **20 + 60 + 20 + 60 + 20**
+- Fittings: a washbasin with mirror against the top wall at the left, a WC pan below it on the left wall, and a square shower tray in the right-hand corner
+- A diagonal dimension across the shower tray reads **>=75**
+
+Caption: (5) Space required for shower
+</figure>
+
+<figure type="floor_plan" title="Figure 6 Shower room with washing machine">
+Rectangular room plan with solid black walls and an inward-swinging door on the right-hand wall.
+- Overall width: **>=1.60**, broken down along the top as **20 + 40 + 20 + 80**
+- Overall depth: **>=2.15**
+- Vertical dimension chain down the left: **20**, **60**, **20**, **80**, **55**
+- Fittings, clockwise: washbasin with mirror against the top wall at the left, square shower tray in the top right corner, WC pan on the left wall, and a washing machine shown as a square appliance in the lower right area
+
+Caption: (6) Shower room with washing machine
+</figure>
+
+<figure type="floor_plan" title="Figure 7 Space required for bathtub">
+Rectangular room plan, wider than deep, with solid black walls and an inward-swinging door on the lower wall.
+- Overall width: **>=2.35**, broken down along the top as **75 + 20 + 60 + 20 + 40 + 20**
+- Overall depth: **1.70**
+- Fittings, left to right: a bathtub occupying the full left-hand end, then a washbasin with mirror and a WC pan side by side against the top wall
+
+Caption: (7) Space required for bathtub
+</figure>
+
+<figure type="floor_plan" title="Figure 8 Full bath">
+Rectangular room plan, wider than deep, with solid black walls and an inward-swinging door at the lower right.
+- Overall width: **>=2.70**, with **1.70** dimensioned along the bath and the remainder broken down as **20 + 60 + 20**
+- Overall depth: **>=1.55**
+- Fittings: a full-length bathtub along the top wall, a washbasin at the top right, and a WC pan on the left wall with a small basin above it
+
+Caption: (8) Full bath
+</figure>
+
+<figure type="floor_plan" title="Figure 9 Functional split of the bathroom into separate rooms">
+Two undimensioned comparative plans shown side by side, illustrating the bathroom broken into separately entered compartments.
+- **Left arrangement**: an upper compartment containing a shower tray, and a lower compartment containing a WC pan and a washbasin, each reached by its own inward-swinging door off a common lobby; a narrow towel rail or duct is drawn on the left wall
+- **Right arrangement**: an upper compartment containing a full-length bathtub, and a lower compartment containing a WC pan and a washbasin, again each with its own door; a washbasin with mirror sits against the bottom wall
+- Walls are drawn as solid black poche; door swing arcs are shown at each opening
+
+Caption: (9) Functional split of the bathroom into separate rooms
+</figure>
+
+<figure type="floor_plan" title="Figure 10 Full bathroom with space for washing machine">
+Square-ish room plan with solid black walls and an inward-swinging door on the lower wall.
+- Overall width: **>=3.15**, broken down along the top as **80 + 20 + 40 + 20 + 60 + 20 + 75**
+- Overall depth: **1.90**, broken down down the left as **80 + 50 + 60**
+- Right-hand vertical chain: **20** and **1.70**
+- Fittings, left to right along the top wall: a square shower tray, then a WC pan, then a washbasin with mirror; a full-length bathtub occupies the right-hand end, dimensioned **1.70**
+- A diagonal clearance dimension in the centre of the room reads **>=75**
+- Space for the washing machine is the clear zone in front of the fittings
+
+Caption: (10) Full bathroom with space for washing machine
+</figure>
+
+<figure type="floor_plan" title="Figure 11 Accessible bathroom with showering space">
+Largest plan on the page, showing a wheelchair-accessible bathroom with a level showering area; solid black walls and an outward-swinging door at the bottom right.
+- Top dimension chain: **1.50**, then **90**, then **55**, then **20**
+- Overall depth at the left: **>=2.45**
+- Right-hand vertical chain, top to bottom: **30**, **40**, **95**, **60**, **20**
+- Overall width along the bottom: **>=3.15**
+- **1.50 x 1.50** — the turning circle for a wheelchair, drawn as a dashed square in the centre of the room
+- Fittings: a level showering space in the upper left (drawn as a plain rectangle, no upstand), a washbasin at the top right of the right-hand wall, and a WC pan below it on the same wall, with grab rails indicated
+
+Caption: (11) Accessible bathroom with showering space
+</figure>
+
+---
+
+**Sidebar**
+
+*Residential buildings*
+
+**ROOMS**
+
+| Section |
+| --- |
+| Access |
+| Kitchens |
+| Living areas |
+| **Bathrooms** (current page) |
+| Subsidiary rooms |
+| Garages |
+
+see also:
+- Accessible building p. 21
+- Sound insulation p. 477
+
+*Page 161*

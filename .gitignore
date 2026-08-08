@@ -9,6 +9,7 @@
 # Parsed output — see README "Data and copyright" before publishing
 # data/
 # *.full_text.txt
+data/batch_*
 
 # Python
 venv/
