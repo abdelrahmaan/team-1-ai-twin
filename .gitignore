@@ -7,7 +7,8 @@
 *.pdf
 
 # Parsed output — see README "Data and copyright" before publishing
-# data/
+data/*.json
+
 # *.full_text.txt
 data/batch_*
 
