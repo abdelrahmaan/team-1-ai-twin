@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Voice Agent</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: #0f1115;
+    color: #eee;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  h1 { font-size: 1.4rem; font-weight: 600; margin: 0; }
+  #status { color: #9aa; font-size: 0.95rem; min-height: 1.2em; }
+  #transcript {
+    width: min(560px, 90vw);
+    max-height: 40vh;
+    overflow-y: auto;
+    background: #171a21;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  #transcript p { margin: 0 0 10px; }
+  #transcript .user { color: #7dd3fc; }
+  #transcript .agent { color: #86efac; }
+</style>
+</head>
+<body>
+  <h1>🎙️ Talk to your agent</h1>
+  <div id="status">Click the button to start</div>
+
+  <!-- The widget itself renders the mic button + orb UI -->
+  <elevenlabs-convai
+    id="widget"
+    agent-id="agent_1301kzg3kqk9fqxrgyy8vnd3j6rz"
+    action-text="Talk to assistant"
+    start-call-text="Start"
+    end-call-text="Hang up"
+  ></elevenlabs-convai>
+
+  <div id="transcript"></div>
+
+  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+  <script>
+    const widget = document.getElementById("widget");
+    const statusEl = document.getElementById("status");
+    const transcriptEl = document.getElementById("transcript");
+
+    widget.addEventListener("conversationStarted", () => {
+      statusEl.textContent = "Listening... speak naturally";
+    });
+
+    widget.addEventListener("conversationEnded", () => {
+      statusEl.textContent = "Conversation ended";
+    });
+
+    // These event names may vary slightly by widget version;
+    // check console for available events if transcript doesn't populate.
+    widget.addEventListener("userTranscript", (e) => {
+      const p = document.createElement("p");
+      p.className = "user";
+      p.textContent = "You: " + e.detail;
+      transcriptEl.appendChild(p);
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    });
+
+    widget.addEventListener("agentResponse", (e) => {
+      const p = document.createElement("p");
+      p.className = "agent";
+      p.textContent = "Agent: " + e.detail;
+      transcriptEl.appendChild(p);
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    });
+  </script>
+</body>
+</html>

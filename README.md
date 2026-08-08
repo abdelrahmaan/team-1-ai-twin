@@ -1,85 +1,82 @@
-# AI-Twin — PDF document parsing pipeline
+# Voice Agent (ElevenLabs)
 
-Parses a large technical PDF into structured, retrieval-ready JSON: one record per
-page, each with a short summary and the full page rendered as markdown.
+A real-time voice agent you can talk to from your laptop mic, with a
+configurable prompt/role, a choice of LLM, and optional PDF context.
 
-Built against the *Dubai Building Code, 2021 Edition* (843 pages, A4 landscape,
-~1,230 figures and ~750 tables).
+## Files
 
-## Output schema
+| File               | Purpose                                                        |
+|---------------------|------------------------------------------------------------------|
+| `config.py`         | All settings: prompt, LLM model, voice, PDF path, file uploads  |
+| `setup_agent.py`     | Creates/configures the agent on ElevenLabs using `config.py`     |
+| `requirements.txt`  | Python dependencies                                              |
+| `index.html`        | Simple browser UI — click a button, talk, hear the agent reply  |
 
-```json
-{
-  "document_name": "dubai_building_code_2021",
-  "content_format": "markdown",
-  "page_count": 843,
-  "pages": [
-    {
-      "page_number": 11,
-      "summary": "1-2 sentence gist, for triage and retrieval recall.",
-      "page_content": "## A.5 Scope and application ...\n\n| Change | Description |\n..."
-    }
-  ]
-}
-```
+## Prerequisites
 
-`page_content` holds the whole page in reading order:
+- An [ElevenLabs](https://elevenlabs.io) account with API credits
+- Your API key, from **elevenlabs.io → Settings → API Keys**
+- Python 3.9+
 
-- headings, body text and lists as markdown
-- KPI tiles as `Metric | Value` tables, real tables cell-for-cell
-- every chart, diagram and photo as an inline `<figure type=… title=…>` block,
-  transcribed element by element with colours named, so a reader can audit which
-  mark pairs with which legend entry without opening the PDF
-
-## Why two sources per page
-
-Neither the text layer nor the page image is sufficient alone:
-
-| Source | Used for |
-| --- | --- |
-| `pdftotext -layout` text layer | authoritative wording, numbers, table values |
-| Rendered page image | figure content, colour, callouts, spatial relationships |
-
-The text layer is trusted for anything that is *written*; the image is used only
-to describe what is *drawn*. This avoids OCR-style transcription errors on
-dimensions and table cells, which matters for a building code.
-
-## Setup
+## 1. Install dependencies
 
 ```bash
-brew install poppler
-python3 -m venv venv && ./venv/bin/pip install pypdf pdfplumber
+pip install -r requirements.txt
 ```
 
-## Usage
+## 2. Set your API key
 
 ```bash
-python scripts/extract_text.py "<source>.pdf" --cache
-python scripts/extract_text.py "<source>.pdf" 11 30
-python scripts/assemble.py data/ out/parsed.json --name my_doc --page-count 843
+export ELEVENLABS_API_KEY=your_api_key_here
 ```
 
-`assemble.py` reports duplicate and missing page numbers on every run, so a
-partial parse is never mistaken for a complete one.
+(On Windows PowerShell: `$env:ELEVENLABS_API_KEY="your_api_key_here"`)
 
-## Repository layout
+## 3. Configure the agent
 
+Open `config.py` and edit:
+
+- `SYSTEM_PROMPT` — the agent's role/instructions
+- `LLM_MODEL` — which model powers it (e.g. `gemini-2.0-flash`, `gpt-4o`, `claude-sonnet-4-5`)
+- `VOICE_ID` — optional, pick a voice from your ElevenLabs Voice Library
+- `PDF_PATH` — optional, leave as `None` if you don't want to give it a document
+
+## 4. Create the agent
+
+Without a PDF:
+```bash
+python setup_agent.py
 ```
-scripts/extract_text.py   text-layer extraction and caching
-scripts/assemble.py       merge per-batch page JSON, validate coverage
-data/                     parsed page batches (git-ignored, see below)
+
+With a PDF (as context/knowledge base):
+```bash
+python setup_agent.py --pdf path/to/document.pdf
 ```
 
-## Data and copyright
+This prints an `AGENT_ID`. Copy it.
 
-The source PDF and the parsed page batches are **git-ignored on purpose**:
+## 5. Run the voice UI
 
-- The Dubai Building Code states at A.10 that no content, in part or whole, may
-  be copied, printed, sold or reproduced in any format. The parsed JSON is a
-  near-verbatim reproduction of that content, so it is not published here.
-- The source PDF is a 31 MB third-party binary.
+Open `index.html` and paste your `AGENT_ID` into the `agent-id="..."`
+attribute on the `<elevenlabs-convai>` tag. Then either:
 
-Keep parsed output in `data/` locally, or in a private store, rather than in a
-public repository.
+- Double-click `index.html` to open it directly in a browser, **or**
+- Serve it locally:
+  ```bash
+  python -m http.server 8000
+  ```
+  and visit `http://localhost:8000`
 
-`.env` is git-ignored and holds API keys. Never commit it.
+Click the widget button, allow microphone access, and start talking —
+you'll hear the agent respond in real time and can interrupt it mid-sentence.
+
+## Notes
+
+- If your agent has **authentication enabled** (a private agent), the raw
+  `agent-id` embed won't work from the browser directly — you'll need a
+  small backend endpoint that calls `get_signed_url()` with your API key
+  and passes that signed URL to the widget instead.
+- Re-run `setup_agent.py` any time you change `config.py` to create a new
+  agent with the updated settings (it creates a new agent each run rather
+  than editing in place — save the printed `AGENT_ID` you want to keep).
+- LLM usage is billed from your ElevenLabs account credits, not a separate key.
