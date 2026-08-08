@@ -7,11 +7,14 @@ with an animated orb, on one page.
 
 1. Create an agent at [elevenlabs.io](https://elevenlabs.io) — prompt, voice, knowledge base,
    tools. Set it to **Public** so the browser can connect without an API key.
-2. Copy the agent ID into `.env.local`:
+2. Copy the agent ID into `.env`:
 
    ```
    VITE_ELEVENLABS_AGENT_ID=your_agent_id
    ```
+
+   Vite also reads `.env.local`, `.env.development`, and `.env.production` if you prefer to
+   split them. All are gitignored except `.env.example`.
 
 3. Start it:
 
