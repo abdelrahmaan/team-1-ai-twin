@@ -1,0 +1,16 @@
+.git
+.superpowers
+docs
+
+elevenlabs-chat
+
+*.pdf
+*.full_text.txt
+data/
+
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+.DS_Store

@@ -1,31 +1,17 @@
 """
 prompts.py
 Mizan's system prompt: the persona/behavior rules, plus Dubai Building Code
-reference material loaded from the ingested page batches in data/.
+reference material loaded from data/dbc_reference.txt.
 
 config.py imports SYSTEM_PROMPT from here to configure the ElevenLabs agent
 (see setup_agent.py).
 """
 
-import json
+import re
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "data"
-
-
-def _load_pages(path: Path) -> list[dict]:
-    """Load a batch_*.json file: a list of {page_number, summary, page_content}."""
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
-def _format_pages(pages: list[dict]) -> str:
-    """Concatenate pages, sorted by page_number, each tagged for citation."""
-    ordered = sorted(pages, key=lambda page: page["page_number"])
-    return "\n\n".join(
-        f"--- Page {page['page_number']} ---\n{page['page_content']}"
-        for page in ordered
-    )
-
+REFERENCE_FILE = DATA_DIR / "dbc_reference.txt"
 
 # ── Persona ───────────────────────────────────────────────────────────
 AGENT_PERSONA_PROMPT = """You are Mizan, an in-meeting voice assistant for architectural client and consultant meetings in Dubai. You are grounded in the Dubai Building Code (DBC) and, where provided, the firm's own agreements.
@@ -44,17 +30,10 @@ Scope: for this version, you only answer questions about the Dubai Building Code
 
 You are a decision-support co-pilot, not the decision-maker. The architect of record still decides and signs. Your job is to make sure they never face a hard question with no facts to stand on."""
 
-# ── Reference material (sub-prompts) ────────────────────────────────────
-_batch_002_pages = _load_pages(DATA_DIR / "batch_002.json")
-_batch_003_pages = _load_pages(DATA_DIR / "batch_003.json")
+# ── Reference material ───────────────────────────────────────────────
+DBC_KNOWLEDGE_CONTEXT = REFERENCE_FILE.read_text(encoding="utf-8")
 
-BATCH_002_CONTEXT = _format_pages(_batch_002_pages)
-BATCH_003_CONTEXT = _format_pages(_batch_003_pages)
-
-_all_pages = _batch_002_pages + _batch_003_pages
-_page_numbers = sorted(page["page_number"] for page in _all_pages)
-
-DBC_KNOWLEDGE_CONTEXT = _format_pages(_all_pages)
+_page_numbers = [int(n) for n in re.findall(r"--- Page (\d+) ---", DBC_KNOWLEDGE_CONTEXT)]
 
 # ── Assembled whole prompt ──────────────────────────────────────────────
 SYSTEM_PROMPT = f"""{AGENT_PERSONA_PROMPT}

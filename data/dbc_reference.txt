@@ -1,0 +1,1164 @@
+--- Page 11 ---
+## A.5 Scope and application of the DBC
+
+### A.5.1 General
+
+The DBC applies to new buildings and changes to existing buildings as described in Table A.1, except where an alternative solution is permitted (see A.8).
+
+| Change to an existing building | Description | Applicable codes |
+| --- | --- | --- |
+| Renovation | Change to linings/finishes or strengthening of structure. It does not involve any reconfiguration of internal spaces. | DBC and UAE FLSC [Ref. A.1] apply to interior finish changes or building envelope changes. |
+| Modification | Fit-out of a space/unit, or change to a service system or building element. | DBC and UAE FLSC [Ref. A.1] apply to the fit-out or change. |
+| Reconstruction | Modification that is not stand-alone. It affects adjacent egress routes or systems that are not part of the reconstruction area such that a larger part of the building might need to be closed down or not occupied for a period of time. | DBC and UAE FLSC [Ref. A.1] apply to the reconstruction and any areas of the building which are impacted by the reconstruction. |
+| Change of use | Change of use or occupancy of part or all of the building. | DBC and UAE FLSC [Ref. A.1] apply to the change of use and any areas of the building which are impacted by the change of use, e.g. existing exit stairs and routes, vertical transport, quantity and type of sanitary provisions. |
+| Addition | An increase in the building's gross area or built-up area, and/or height or depth. | DBC and UAE FLSC [Ref. A.1] apply to the addition. If the addition relies on the remainder of the existing building for escape, vertical transport, etc., the existing building shall also be assessed against the DBC and UAE FLSC [Ref. A.1]. |
+
+*Table A.1 Existing building and application of the DBC*
+
+The DBC applies to the occupancies and use types described in Table A.2.
+
+| Occupancy | Use |
+| --- | --- |
+| Assembly | Amusement park, theatre, cinema, restaurant, museum, art gallery, place of worship, library, exhibition and conference centre, etc. |
+| Business | Office, professional services, government centre, post office, bank, etc. |
+| Educational | University, college, school, kindergarten, nursery, educational institute |
+| Hotel establishment | Hotel, resort, guesthouse, hotel apartment |
+| Residential | Apartment, studio, student accommodation, labour accommodation, staff accommodation; Villas and townhouses |
+| Parking | Open, enclosed, mechanical |
+| Retail | Shopping centre, department store, shop, kiosk, showroom, stores |
+| Mall | Open mall, enclosed mall |
+| Industrial | Factory, workshop |
+| Storage | Warehouse |
+
+*Table A.2 Occupancies and use types*
+
+*Page A 9*
+
+--- Page 12 ---
+The DBC does not apply to:
+
+a) infrastructure such as road and rail bridges, tunnels, culverts, metro stations, hydraulic structures, buried and overhead utilities, power stations, antennas and masts, wind turbines and nuclear facilities;
+
+b) marine structures such as canals, dams, dikes, levies, piers, jetties and wharves;
+
+c) oil and gas structures such as petrochemical facilities, oil refineries, liquefied natural gas terminals, oil platforms and tanks;
+
+d) structures such as tents, cranes, storage racks, scaffolding, formwork and falsework;
+
+e) structures subject to specific loading conditions such as stadia, grandstands, silos and chimneys.
+
+The DBC does not apply to historical buildings where the original character of the building is to be retained. Buildings considered to be historical shall conform to the guidelines of the relevant Authority as appropriate.
+
+Buildings in heritage areas or considered to be heritage buildings shall follow the DBC. The heritage department of the Authority controls the elevation design and façade treatment.
+
+Villas and townhouses are addressed in **Part K**.
+
+### A.5.2 Floor area and building height definitions in DBC
+
+#### A.5.2.1 Gross floor area (GFA)
+
+Gross floor area (GFA) is used by Planning Authorities in Dubai to define the floor area ratio (FAR), where FAR is the ratio of GFA to plot area. The building GFA is the sum of the GFA of all floors, measured to the exterior surface of the external wall thickness and from the centrelines of the common walls joining two spaces. The measurement excludes external wall features such as corniches, brackets, and façade cladding materials.
+
+GFA is calculated based on Table A.3.
+
+GFA might be in development control regulations (DCR). Consultants shall calculate GFA using the DBC definition and Table A.1 unless GFA is stated in the DCR.
+
+*Page A 10*
+
+--- Page 13 ---
+| Space or area | Included or excluded in GFA |
+| --- | --- |
+| Habitable and occupiable spaces including sanitary facilities | Included |
+| Mezzanine floors | Included |
+| Lobbies | Included |
+| Corridors | Included |
+| Stairs | Included |
+| Basements in buildings other than villas | Habitable and occupiable spaces including sanitary facilities to be included |
+| Basements in villas | Excluded |
+| Attic spaces | Attic spaces less than 2.15 m height and used for services only to be excluded |
+| Parking | Excluded |
+| Parking lobbies | Excluded |
+| Internal roads | Excluded |
+| Loading areas | Excluded |
+| Mechanical and service rooms | Excluded |
+| Mechanical ducts | Excluded |
+| Elevator shaft at elevator recall floor | Included |
+| Elevator shafts at other floors | Excluded |
+| Elevator machine rooms | Excluded |
+| Mechanical, electrical and plumbing plant floors | Excluded |
+| Shafts | Excluded |
+| Refuse chutes | Excluded |
+| Waste rooms | Excluded |
+| Storage below ground | Excluded |
+| Storage on ground and above | Included |
+| Prayer room and ablution area | Excluded |
+| Gym with gross area <=50% of roof area | Excluded |
+| Gym with gross area >50% of roof area | The gross area of the gym exceeding 50% is included* |
+| Swimming pools (indoor and outdoor) including services (showers, toilets, lockers, changing rooms, etc.) | Excluded |
+| Arcades (open, non-air conditioned) | Excluded |
+| Base of double height volumes and atria | Included |
+| Void of double height floors and atria | Excluded |
+| Floor voids | Excluded |
+| Terraces | Excluded |
+| Balconies | Excluded |
+
+> NOTE: * This rule is associated with the roof area but it applies to gyms located anywhere in the building.
+
+*Table A.3 Areas included in GFA*
+
+*Page A 11*
+
+--- Page 14 ---
+#### A.5.2.2 Built-up area
+
+Built-up area is used also by Planning Authorities. It is defined as the total constructed area in a building or structure measured from the external walls of the building, inclusive of balconies, terraces and other projections as well as any other covered spaces such as covered parking structures, circulation corridors, loading/unloading bays, basements, service floors, indoor swimming pools and any other permanent structures on the plot. Calculation of total built-up area shall exclude the following:
+
+a) shafts, courtyards and yards including mechanical, electrical and plumbing (MEP) shafts, refuse chutes and similar;
+
+b) non-covered outdoor landscape and hardscape surfaces and courtyards;
+
+c) lightweight outdoor shading structures such as pergolas and standalone canopies.
+
+An example calculation using a sample plan is shown in Figure A.1.
+
+<figure type="technical_drawing" title="Figure A.1 Total built-up area (highlighted areas are included in area definition)">
+Black-line site/floor plan of a hotel-type development within a rectangular plot boundary. Rooms counted toward built-up area are filled solid slate-grey; uncounted outdoor areas are left white. Numbered circular callouts (01-18) key the spaces.
+
+- Grey-filled (included in built-up area) — the main building footprint containing the gym, lobby, ballroom, prayer room, MEP rooms, corridors, staff toilets, staff areas, meeting room, service corridor, electrical rooms, restaurant, back-of-house and kitchen, plus the detached service block at right
+- White (excluded) — the kidney-shaped outdoor swimming pool and surrounding deck at top left, the open parking bays hatched at right, the pergolas, and the plot's landscaped margins
+- Plot limit — thin rectangular boundary line enclosing the whole site, callout 18 at top right
+- Parking canopy — callout 17, over the parking bays at top right
+- Pergolas — callout 16, shown as narrow slatted rectangles at top centre
+
+**Key**
+
+| No. | Space |
+| --- | --- |
+| 01 | Gym |
+| 02 | Lobby |
+| 03 | Ballroom |
+| 04 | Prayer room |
+| 05 | MEP |
+| 06 | Corridor |
+| 07 | Staff toilets |
+| 08 | Staff |
+| 09 | Meeting room |
+| 10 | Service corridor |
+| 11 | Electrical |
+| 12 | Restaurant |
+| 13 | Back-of-house |
+| 14 | Kitchen |
+| 15 | Service block |
+| 16 | Pergolas |
+| 17 | Parking canopy |
+| 18 | Plot limit |
+
+Caption: Figure A.1 Total built-up area (highlighted areas are included in area definition)
+</figure>
+
+*Page A 12*
+
+--- Page 15 ---
+#### A.5.2.3 Gross area and net area
+
+The terms "gross area" (GA) and "net area" (NA) are used by the DBC to calculate occupant load in a floor or space. They are defined in A.2 and further described and illustrated in **Part B**.
+
+#### A.5.2.4 Building height
+
+Building height is a key variable that is checked by the Authorities for compliance with the DBC, DCR/affection plans, UAE FLSC **[Ref. A.1]** and, where applicable, DCAA restrictions on building heights located in Aviation easement areas due to overhead flight paths.
+
+Each definition of building height is slightly different as they are used to regulate different issues. For this reason, Consultants shall check building height against the DBC, DCR/affection plans, UAE FLSC **[Ref. A.1]** and, where applicable, DCAA regulations **[Ref. A.6]**.
+
+*Page A 13*
+
+--- Page 16 ---
+## A.6 Navigating the DBC
+
+### A.6.1 Division into Parts
+
+The DBC is divided into Parts as described in Figure A.2. Each Part is subdivided into sections by topic.
+
+Minimum requirements for sustainability are embedded within the relevant Parts of the DBC. Developers and Consultants are encouraged to apply the rating system adopted by the relevant Authority to assess their projects and exceed these minimum requirements.
+
+Fire safety requirements are given in the relevant Parts of the DBC and cross referenced to UAE FLSC **[Ref. A.1]**. The aim of this cross-referencing is to help Consultants navigate and coordinate the requirements of the two documents. Where an element of UAE FLSC is not applicable in Dubai, or the DBC contains additional information not in UAE FLSC, this is indicated in the text.
+
+<figure type="diagram" title="Figure A.2 How to use and navigate the DBC">
+Isometric grey line drawing of a multi-storey building, with nine colour-coded Part icons placed around it and leader lines pointing to the building element each Part governs. A separate villa line drawing sits at lower left with its own icon.
+
+Callouts, clockwise from top left:
+- **Part H — Indoor environment** — green tile, fan icon — leader to the rooftop plant/mechanical enclosure
+- **Part D — Vertical transportation** — olive tile, elevator icon — leader to the internal lift core at roof level
+- **Part F — Structure** — brown tile, I-beam icon — leader to the building frame at upper right
+- **Part G — Incoming utilities** — purple tile, tap-and-droplet icon — leader to the services entry at lower right
+- **Part C — Accessibility** — orange tile, wheelchair icon — leader to the entrance approach/ramp at the base
+- **Part B — Architecture** — teal tile, ruler icon — leader to the ground-floor entrance and envelope
+- **Part J — Security** — crimson tile, CCTV camera icon — leader to the site perimeter at lower left
+- **Part E — Building envelope** — blue tile, facade icon — leader to the glazed curtain wall on the left elevation
+- **Part K — Villas** — grey tile, house icon — leader to the separate two-storey villa drawing at lower left
+
+Caption: Figure A.2 How to use and navigate the DBC
+</figure>
+
+*Page A 14*
+
+--- Page 17 ---
+### A.6.2 Performance statements
+
+The overarching objectives of the DBC, its intention and regulatory scope, are set out in A.1.
+
+Each Part of the DBC starts with a set of performance statements. These set out the broad outcomes that the completed building is expected to achieve, and are provided to explain the intent of the prescriptive design requirements within the Part. If the prescriptive design requirements of the Part are followed, then the performance statements of the Part are deemed to be met and will be accepted by the Authority.
+
+### A.6.3 References
+
+Each Part has a section for essential references and further reading. The requirements of the DBC and the essential references form the prescriptive design requirements of the DBC and will be enforced by the Authority. Websites and webpages shall be checked regularly for updates.
+
+> NOTE: Where websites and webpages have been cited throughout the DBC, they are provided for ease of reference and are correct at the time of publication. Changes to the location of a webpage or website, or its contents, cannot be guaranteed.
+
+### A.6.4 Definitions
+
+In addition to the common definitions in A.2, each Part has a section for definitions.
+
+### A.6.5 Annexes
+
+Any annex material is included at the end of the Part to which it relates. Annex material contains further explanatory material.
+
+*Page A 15*
+
+--- Page 18 ---
+## A.7 Adoption of DBC
+
+Projects in design or construction that have a final approved design from the Authority do not need to conform to the DBC.
+
+Projects in design without a final approved design shall conform to the DBC. The requirements of the DBC are based on regulations enforced prior to its publication and in many instances the DBC is less stringent. For example, requirements unrelated to health, safety, welfare and environment have generally been removed from the regulations. Therefore, it is expected that there will be benefits to Developers and Owners in adopting the DBC.
+
+## A.8 Alternative solutions
+
+The DBC is intended to be a prescriptive design code. Performance statements are provided at the start of each Part to describe the outcomes that the completed building is expected to achieve.
+
+The performance statements form a set of overarching regulations that convey the requirements of the DBC (see A.6.2).
+
+The preferred method of meeting the performance statements of the DBC is to follow the prescriptive design requirements in each Part.
+
+The inclusion of performance statements sets out the intent of the DBC and future-proofs it, supporting a possible transition to a more performance-based regulatory system in the future.
+
+Alternative solutions which meet the performance statements of the DBC are permitted:
+
+a) for projects that cannot reasonably meet the prescribed requirements; and
+
+b) for changes to existing buildings where the requirements of the DBC would result in a disproportionate cost to the Owner/Developer.
+
+The Authority will decide if an alternative solution is permitted.
+
+An alternative solution shall meet the intent of the performance statements and provide at least an equivalent level of performance to all of the prescriptive design requirements.
+
+Alternative solutions shall be applied to a performance-based design holistically such that a change from one Part of the DBC does not reduce the building's performance in other aspects.
+
+Alternative solutions for changes to existing buildings shall demonstrate the existing conditions are maintained to the current level of compliance or improved to meet the safety levels of the DBC and UAE FLSC **[Ref. A.1]**.
+
+The Authority will decide whether or not a performance-based design is equivalent to the prescriptive design requirements. The responsibility is on the Consultant to demonstrate that the performance-based design is required and that it is at least equivalent to the prescriptive design requirements.
+
+The DBC lists preferred international codes and standards in each Part (see A.4.2). Where permitted by the Authority, alternative standards can be used provided that the comparable standard meets the intent of the DBC.
+
+*Page A 16*
+
+--- Page 19 ---
+## A.9 Maintenance of DBC
+
+### A.9.1 General
+
+The DBC is an interactive document available electronically.
+
+The DBC will typically be maintained and updated on a two- to three-year cycle. If necessary, addendums will be issued between cycles. It is therefore important that Consultants, Contractors and Engineers check back regularly to ensure that they are following the latest version of the DBC.
+
+### A.9.2 Latest changes to DBC
+
+This edition is the first edition of the DBC.
+
+Amended content in future editions will be clearly indicated. For example, new content will be side lined in the first edition in which it is published.
+
+## A.10 Copyright
+
+No content of the DBC, in part or whole, shall be copied, printed, sold or reproduced in any format.
+
+## A.11 Coordinate system
+
+The coordinate system used by the Authority is Dubai Local Transverse Mercator (DLTM). The reference point for levelling is Port Rashid.
+
+*Page A 17*
+
+--- Page 20 ---
+## A.12 Dimensions, units and calculations
+
+### A.12.1 Dimensions
+
+All dimensions in the figures and diagrams of the DBC are given in millimetres without units, unless the distance exceeds 1,000 mm, and then it is given in metres with units (m). Dimensions that are not stated as "maximum" or "minimum" are absolute.
+
+All dimensions are subject to conventional industry tolerances, except where the requirement is stated as a range with specific minimum and maximum end points.
+
+### A.12.2 Units
+
+All quantities shall be in metric units with the units defined.
+
+All engineering shall be performed in dynamically consistent units. One of the two systems shown in Table A.4 should be used. Use of dimensions between analysis models, drawings and/or building information modelling (BIM) models shall be fully coordinated and consistent.
+
+| Unit | SI-system symbol (preferred units) | System mm-t-s: Symbol | System mm-t-s: Conversion from SI units | System mm-kg-ms: Symbol | System mm-kg-ms: Conversion from SI units |
+| --- | --- | --- | --- | --- | --- |
+| Length | m | mm | 10^3 | mm | 10^3 |
+| Mass | kg | t | 10^-3 | kg | 1 |
+| Time | s | s | 1 | ms | 10^3 |
+| Temperature | °C | °C | 1 | °C | 1 |
+| Energy | J | mJ | 10^3 | J | 1 |
+| Acceleration | m/s^2 | mm/s^2 | 10^3 | mm/ms^2 | 10^-3 |
+| Area | m^2 | mm^2 | 10^6 | mm^2 | 10^6 |
+| Frequency | Hz | Hz | 1 | ms^-1 | 10^-3 |
+| Velocity | m/s | mm/s | 10^3 | mm/ms | 1 |
+| Volume | m^3 | mm^3 | 10^9 | mm^3 | 10^9 |
+| Density | kg/m^3 | t/mm^3 | 10^-12 | kg/mm^3 | 10^-9 |
+| Stress | N/m^2 | N/mm^2 | 10^-6 | kN/mm^2 | 10^-9 |
+| Force | N | N | 1 | kN | 10^-3 |
+| Moment | Nm | Nmm | 10^3 | kNmm | 1 |
+| Stiffness | N/m | N/mm | 10^-3 | kN/mm | 10^-6 |
+
+*Table A.4 Preferred units*
+
+### A.12.3 Calculations
+
+Where the required number of elements (e.g. parking or sanitary provisions) to be provided is determined by calculations of ratios or percentages, and this results in remainders or fractions, the next greater whole number of such elements shall be provided.
+
+*Page A 18*
+
+--- Page 21 ---
+# Part B
+
+# Architecture
+
+- B.1 Performance statements
+- B.2 Definitions
+- B.3 References
+- B.4 General architectural provisions
+- B.5 Minimum space requirements
+- B.6 Circulation requirements and openings
+- B.7 Building access and vehicular requirements
+- B.8 Communal provisions in buildings
+- B.9 Architectural requirements for specific building types and spaces
+- B.10 Buildings interaction with outdoor environment
+- B.11 Wayfinding in buildings
+
+<figure type="illustration" title="Isometric drawing of a mid-rise mixed-use building">
+Left third of the page is a teal gradient panel carrying the Part B icon (a ruler/set square) and the section list, with flowing dune contour lines. The right two-thirds shows a white and teal isometric line drawing of a building set on a landscaped plot.
+- Main block — a six-storey building with a deep recessed light well/atrium on the near facade, floor plates and balconies picked out in teal
+- Roof — flat roof with a teal-glazed clerestory band and a plant enclosure
+- Right wing — a lower adjoining block with regular punched windows and an external stair
+- Ground plane — entrance zone with small human figures, seating and a canopy, wrapped by paths
+- Landscaping — stylised trees, palms and planting beds around the perimeter
+</figure>
+
+*Page B 1*
+
+--- Page 22 ---
+## B.1 Performance statements
+
+| Performance statement | The performance statement will be met by following the requirements of: |
+| --- | --- |
+| The building shall be appropriately integrated with the surrounding natural and built environment. | B.4, B.9 and B.10 |
+| The building shall facilitate the safety, convenience and welfare of building occupants as they move in and around the building, including access and egress. | B.4, B.5, B.6, B.9 and B.11 |
+| The building shall provide appropriate access and safe circulation for vehicles within the site and building. | B.7 and B.9 |
+| The building shall provide minimum communal provisions and facilities for the welfare of occupants. | B.8 and B.9 |
+| The building shall be provided with adequate and accessible solid waste and recycling storage to safeguard people from injury or illness caused by infection or contamination. | B.8.5 and B.9 |
+
+*Page B 2*
+
+--- Page 23 ---
+## B.2 Definitions
+
+### B.2.1 Terms
+
+**Accessibility:** Ease of independent approach, entry, evacuation and/or use of a building and its services and facilities by all of the building's potential users, regardless of disability, age or gender, and with an assurance of individual health, safety and welfare.
+
+**Accessible:** Site, building, facility or portion thereof that conforms to **Part C**.
+
+**Advertising:** Any identification or description or drawing or any other means to be fitted or erected or printed or written or drawn, either directly or indirectly, or any building or structure or plot, whose purpose is to draw attention to any business, product, service, etc.
+
+**Affection plan:** Plan of the plot or site issued by the Authority, showing information that includes (but is not limited to) the plot boundaries, plot dimensions, plot areas, setbacks and surroundings as well as the land uses. Also called site plan.
+
+**Amenity space:** Public or private area within the boundaries of a plot or a development site for the building occupant's recreation or convenience (such as landscaped areas, patios, swimming pools, play areas, prayer rooms, exercise areas and similar uses).
+
+**Annex:** Building or installation, attached to or independent from the main building, the use of which is secondary or complementary to the function of the main building.
+
+**Arcade:** Roofed corridor that leads to any building, faces a street or open courtyard, or links more than one building. Usually formed through a series of arches supported on columns or piers (see Figure B.1).
+
+<figure type="technical_illustration" title="Figure B.1 Arcade">
+Axonometric line drawing in white and teal of an arcade structure viewed from the front-left.
+- Arcade run — a long colonnade of round-headed arches springing from square piers, running away from the viewer to the left
+- Roof — flat slab with a teal top surface and a projecting cornice band above the arches
+- End bay — a taller, deeper arched opening at the right end, forming the entrance
+- Shading — arch soffits and the recessed walkway behind the arcade shown in mid-teal to indicate the covered corridor
+
+Caption: Figure B.1 Arcade
+</figure>
+
+**Assembly:** Occupancy classification associated with the gathering of people for deliberation, worship, entertainment, eating, drinking, amusement, awaiting transportation, or similar uses.
+
+**Atrium:** Large-volume space created by a floor opening or series of floor openings, connecting two or more storeys or exceeding 15 m in height from finished floor. The space is covered at the top of the opening(s) and used for purposes other than an enclosed stairway, an elevator hoistway, an escalator opening or a utility shaft.
+
+**Authorized use:** Plot use or building occupancy authorized according to the classification of lands in Dubai noted in the official affection plan or development regulation.
+
+**Balcony:** Covered or uncovered occupied projection or partial projection outside the external walls, attached to the building and accessed from the building's interior spaces (see Figure B.2).
+
+<figure type="technical_illustration" title="Figure B.2 Balcony">
+Axonometric line drawing in white and teal showing a fragment of a building facade with two stacked balconies projecting from it.
+- Facade — a flat pale-grey wall plane set at an angle to the viewer, with rectangular window/door openings
+- Balconies — two teal-topped slabs projecting horizontally from the facade, one above the other, each with a solid upstand balustrade
+- Access — glazed door openings in the facade behind each balcony, showing that the balcony is entered from interior space
+
+Caption: Figure B.2 Balcony
+</figure>
+
+**Basement floor:** Storey of a building wholly or partly below the gate level that is not the first storey above gate level. A basement slab soffit level is not higher than 1,200 mm above the building gate level.
+
+*Page B 3*
+
+--- Page 24 ---
+**Bathroom:** Room containing a water closet, a washbasin, and either a bathtub, a shower, or both.
+
+**Bi-separator:** Piece of equipment fitted to the end of a refuse chute which allows the user to deposit multiple waste streams, such as recycling and residual waste, into a single refuse chute.
+
+**Boundary wall/fence:** Free-standing structure constructed from approved materials surrounding a plot, resting on the ground and rising above ground level and used for confinement and/or screening for safety or security or division purposes.
+
+**Building:** Structure for the use or occupancy of people or for shelter.
+
+**Building element:** Component of a building, which might or might not be of fire resistance rated construction and is constructed of approved materials.
+
+**Building envelope:** Physical barrier between the exterior and the conditioned environment of a building to resist air, water, moisture, heat, cold, light, and noise transfer. For an air-conditioned building, the building envelope comprises the elements of a building that separate conditioned spaces from the exterior. Crown extensions to the façade to cover screen cladding are part of the building envelope. The building envelope does not include the physical barrier below ground.
+
+**Building height, total:** Vertical distance measured from the approved road edge level at the plot main access to the highest roof surface or element.
+
+**Building height:** Vertical distance measured from the approved road edge level at the plot main access to the mean finished level of the building roof.
+
+**Building occupants:** Persons using the building.
+
+**Building projection:** Projection or protrusion that extends outside the vertical external wall of the floor below, such as balconies.
+
+**Building setback:** Horizontal distance between the nearest part of any building or structure on the plot above ground and the plot boundary, measured perpendicular to the plot boundary.
+
+**Built environment:** External and internal environments and any element, component or fitting that is commissioned, designed, constructed and managed for use by people.
+
+**Bulky waste:** Waste, such as furniture, which is usually too large for regular waste collections.
+
+**Business:** Occupancy used for the transaction of business other than retail, usually used for office, professional or service-type transactions, including storage of records and accounts.
+
+**Canopy:** Building projection that provides weather protection, identity or decoration and is partially or wholly supported by the building to which it is attached.
+
+**Carpool vehicle:** Shared vehicle used by people who each have a car but travel together to save cost, to reduce driving stress and to promote other socio environmental benefits.
+
+**Chimney:** Primarily vertical structure containing one or more flues, for the purpose of carrying gaseous products of combustion and air from a fuel-burning appliance to the outdoor atmosphere.
+
+**Chute:** Vertical shaft or sloping channel provided for building utilities and services.
+
+**Circulation:** Means of passage for pedestrians in and around the built environment, including (but not limited to) corridors, hallways, courtyards, stairways and stair landings.
+
+**Clear width:** Free unobstructed space for access.
+
+**Clinic:** Buildings (or portions thereof) used to provide medical care on less than a 24 h basis.
+
+**Corridor:** Enclosed component that defines and provides a path of travel.
+
+*Page B 4*
+
+--- Page 25 ---
+**Courtyard:** Open, uncovered space, unobstructed to the sky, bounded on three or more sides by exterior building walls or other enclosing devices as shown in Figure B.3.
+
+<figure type="technical_drawing" title="Figure B.3 Courtyard">
+Two small plan diagrams side by side, each a pale blue-grey square block with a white void inside marked by dashed diagonals.
+
+- **(a) all sides bounded courtyard** — left diagram: a square white courtyard sits fully inside the block, enclosed on all four sides by wall thickness; dashed diagonals cross the void corner to corner
+- **(b) 3 sides bounded courtyard** — right diagram: the white courtyard opens out to one edge of the block; dashed lines splay from the enclosed corners to the open side, indicating the unenclosed face
+
+Caption: Figure B.3 Courtyard
+</figure>
+
+**Curb:** Raised edge on a roadway, concrete floor slab or around roof plant.
+
+**Daylighting:** Illumination of interior spaces using natural light.
+
+**Department store:** Store, exhibition, building, or part of a building used for the retail sale of a broad variety of items.
+
+**Designated preferred parking spaces:** Parking spaces that are closest to the main entrance of a building, excluding accessible spaces, or parking spaces closest to the pedestrian exit from the parking area.
+
+**Development:** General term for the construction, erection or placing of a building or structure; the making of an addition or alteration to a building or structure; a significant change in use or in intensity of use of any building or structure.
+
+**Development control regulations (DCR):** Document that shows planning regulations (such as height, land use, area, setbacks, building lines) for the full development, and each plot in a subdivision plan, as issued by the relevant planning Authority or master Developer.
+
+**Door:** Combination of a door leaf or leaves, frame, hardware, and other accessories, positioned in an opening in a wall and intended primarily for access and egress.
+
+**Driveway:** Access to a required off-street parking and loading facility area.
+
+**Education:** Occupancy used for educational purposes, including training centres and universities.
+
+**Element:** Component or space of a building, facility or site.
+
+**Elevator lobby:** Landing from which occupants directly enter an elevator car(s) and into which occupants directly enter upon leaving an elevator car(s).
+
+**Enclosed parking:** Parking occupancy that is partially or wholly enclosed on all sides, and that does not qualify as open parking.
+
+**Entrance:** Access point to a building, portion of a building or facility. An entrance includes the approach walk, the vertical access leading to the entrance platform, the entrance platform itself and the entry door(s) or gate(s).
+
+**Environmental impact assessment (EIA):** Process of predicting, identifying and evaluating the likely impacts (initial and cumulative), both beneficial and adverse, of a project on the environment including the potential effects of the environment on the project.
+
+**Exhibition:** Space or structure used for the display of products or services.
+
+**Exit access:** Portion of a means of egress that leads to an exit.
+
+**Exit discharge:** Portion of a means of egress between the termination of an exit and a public way.
+
+**Exit passageway:** Exit component that is separated from other spaces of a building or structure by fire resistance rated construction and opening protectives, providing a protected path of egress travel in a horizontal direction to exit discharge or public way or outside building. Additional uses for the exit passageway include stair transfer in upper floors as well as to reduce travel distance to an exit by having an exit passageway lead to a stair of exit discharge.
+
+*Page B 5*
+
+--- Page 26 ---
+**Exterior stairway:** Stairway that is open on at least one side, except for required structural columns, beams, handrails and guardrails. The adjoining open area can be either yards, courtyards or public ways. The other sides of the exterior stairway can be closed.
+
+**External wall:** Wall, load bearing or non-load bearing, that is used as an enclosing wall for a building and might form part of the building envelope.
+
+**Facility:** All or any portion of the buildings, structures, site improvements, equipment, roads, walks, passageways, parking lots or other property located at the site.
+
+**Feeding room or lactation room:** Private space where a nursing mother can nurse a child or lactate.
+
+**Fixed seating:** Furniture or fixture designed and installed for the use of sitting and secured in place. Includes bench-type seats and seats with or without backs or arm rests.
+
+**Flight:** Continuous run of stair treads from one landing to another.
+
+**Flood or flooding:** General and temporary condition of partial or complete inundation of normally dry land from:
+
+a) the overflow of inland or tidal waters;
+
+b) the unusual and rapid accumulation or runoff of surface waters from any source.
+
+**Floor finish:** Exposed floor surfaces of buildings including coverings applied over a floor or stair, including risers.
+
+**Floor height:** Vertical distance from top to top of two successive finished floor surfaces. For the topmost storey, from the top of the floor finish to the top of the ceiling joists or, where there is no ceiling, to the top of the roof surface.
+
+**Floor or storey:** Portion of a building located between the upper surface of a floor and the upper surface of the floor or roof next above.
+
+**Fuel dispensing facilities:** Facility where motor fuels are stored and dispensed from fixed equipment into the fuel tanks of motor vehicles or marine craft or into approved containers, including all equipment used in connection therewith.
+
+**Gate level:** Defined height on the plot boundary at the vehicular or pedestrian access point to the plot. It is an elevation difference between the road level (existing or future) and the level of the plot's access point.
+
+The gate level of a plot shall be a minimum height of +300 mm from the edge of the road or a slope of between 2-5% from the edge of the road to the plot's access point.
+
+**Glazed element:** Individual element within a building envelope that lets in light, including windows, plastic panels, clerestories, skylights, doors that are more than one half glass, and glass block walls.
+
+**Glazing:** Glass that is installed as one of the components of a wall, floor, ceiling or roofing system.
+
+**Gross area (GA):** Floor area within the inside perimeter of the exterior walls of a building. The measurement excludes shafts and courtyards, but includes corridors, stairways, ramps, closets, base of atria (or similar voids) and the thickness of interior walls, columns or other features.
+
+**Ground floor:** First floor in the building above the gate level.
+
+**Guard room:** Room, unit, or residential space on the same plot of land as the main building, or located within the main building, designated for the occupancy of the guard.
+
+**Guardrail:** Vertical protective barrier erected along elevated walking surfaces, exposed edges of stairways, balconies and similar areas that minimizes the possibility of fall from elevated surfaces to lower level.
+
+**Habitable space:** Space in a building for living, sleeping or eating involving occupancy for continuous period of time. Bathrooms, toilet rooms, closets, halls, storage or utility spaces and similar areas are not habitable spaces.
+
+**Handrail:** Horizontal or sloping rail intended for handhold and grasping by hand for guidance or support (see Figure B.4).
+
+*Page B 6*
+
+--- Page 27 ---
+**Hardscape:** Area of a project site, excluding buildings, made with hard materials, including roads, car parks, patios, courtyards and walkways.
+
+**Hazardous waste:** Waste material that can cause substantial harm to humans, properties and/or the environment due to its inherent hazardous characteristics. Hazardous waste takes the form of solid, liquid, sludge, gas or any combination thereof.
+
+**Healthcare:** Occupancy used to provide medical, psychiatric, surgical, therapeutic treatment for people.
+
+**Helipad:** Dedicated structural surface used for the landing, taking off, taxiing and parking of helicopters.
+
+**High-rise building:** Building height greater than or equal to 23 m and up to 90 m, measured in accordance with the UAE FLSC **[Ref. B.1]**. A more detailed definition is given in UAE FLSC.
+
+**Hospital:** Building or portion thereof used on a 24 h basis for the medical, psychiatric, obstetrical or surgical care of four or more inpatients.
+
+**Hotel:** Building or groups of buildings under the same management in which there are sleeping accommodations for lodging with or without meals for people on a transient basis.
+
+**Hotel apartments:** Collection of apartments or studios that are rented to guests by the day, the week, the month or the year.
+
+**Hotel establishment:** Hotels, guest houses, hotel apartments or resorts.
+
+**Hotel suite:** Separate guest unit in a hotel that contains one or more bedrooms with a living room and other services.
+
+**Housekeeper's room:** Attached or separate room or unit on the same plot of land as the main building, designated for the residence of housekeepers or other maintenance staff such as gardeners, guards and drivers.
+
+**Hybrid vehicle:** Vehicle using two different forms of power, such as an electric motor and an internal combustion engine, or an electric motor with a battery and fuel cells for energy storage.
+
+**Illuminance:** Amount of light falling onto a surface area.
+
+**Industrial/factory/workshop:** Occupancy in which products are manufactured or in which processing, assembling, mixing, packaging, finishing, decorating, or repair operations are conducted.
+
+<figure type="technical_illustration" title="Figure B.4 Stair components">
+Axonometric line drawing in white and teal of a short flight of stairs rising to a landing, set against a pale blue-grey background panel. Four numbered circular callouts identify the components.
+- **01: Handrail** — leader to the tubular handrail with a returned end, running up the left side of the flight and continuing along the landing
+- **02: Tactile surface** — leader to the hatched warning strip laid across the landing at the top of the flight
+- **03: Tread** — leader to the horizontal stepping surface of a step
+- **04: Riser** — leader to the vertical face between two consecutive treads
+- Landing — the flat upper platform shown extending to the right beyond the top step
+
+**Key**
+
+| No. | Component |
+| --- | --- |
+| 01 | Handrail |
+| 02 | Tactile surface |
+| 03 | Tread |
+| 04 | Riser |
+
+Caption: Figure B.4 Stair components
+</figure>
+
+*Page B 7*
+
+--- Page 28 ---
+**Intersection:** Crossing of two or more roads.
+
+**Kiosk:** Temporary or permanent structure of lightweight construction occupied as a retail outlet, food outlet or service outlet. Kiosks are generally located at malls, shopping centres, assembly areas and exhibition centres.
+
+**Kitchen:** Place for the preparation of meals and beverages.
+
+**Labour accommodation:** Building used for group accommodation for workers of a company or a firm, for which the sanitary facilities and other services are common.
+
+**Landing:** Floor area at the top of a flight of stairs or between two flights of stairs, or a platform or part of a floor structure at the end of a ramp or at the entrance to an elevator car.
+
+**Land use:** Activities, operations, or purposes that are employed in a particular geographic area; the specific manner in which a plot of land is utilized. Land use is usually regulated through zoning and planning regulations.
+
+**Level:** Ground or floor surface, or part of a surface, having a slope of not more than 2% at any point and in any direction.
+
+**Line of sight:** Imaginary line from the eye to a perceived object or view.
+
+**Loading area:** Area used for loading or unloading of vehicles, located entirely on private property and provided with permanent independent access.
+
+**Lobby:** Entrance or foyer to a space or building which acts as a transition area.
+
+**Local road:** A roadway with the primary function of providing access to adjacent properties and to roadways of a higher functional classification.
+
+**Local species:** Local plants and plants adapted to the local environment.
+
+**Low-rise building:** Building height less than or up to 15 m, measured in accordance with the UAE FLSC **[Ref. B.1]**. A more detailed definition is given in UAE FLSC.
+
+**Low-depth underground building:** Building up to 7 m below or having up to two basements below the level of exit discharge, measured in accordance with the UAE FLSC **[Ref. B.1]**. A more detailed definition is given in UAE FLSC.
+
+**Main building:** Building used for the main or prime functional use within the plot.
+
+**Mall:** Pedestrian area within a building that serves as access for multiple tenants with levels that are open to each other. A covered mall has an enclosed or roofed common pedestrian way. An open mall has an unroofed common pedestrian way.
+
+**Massing:** Overall mass or size of a building or project, its physical volume or magnitude.
+
+**Masterplan:** Comprehensive plan to guide the long-term physical development of a specific area based on identified objectives, strategies, and timelines for implementation. Includes plans for land use, community facilities and utilities, transportation of goods and people, and energy use and conservation. Zoning ordinances and policies are developed for different areas or zoning districts based on the masterplan.
+
+**Means of egress:** Continuous and unobstructed route from any point in a building or structure to a public way.
+
+**Mechanical parking:** Parking areas employing parking machines, lifts, elevators or other mechanical devices for vehicles moving from and to street level. Public occupancy is prohibited above street level.
+
+**Mezzanine floor:** Intermediate level or levels between the floor and ceiling of any storey equal to or less than one-third of the floor it is contained in. A partial floor greater than one-third of the floor it is contained in is a floor, not a mezzanine.
+
+**Mid-rise building:** Building height greater than 15 m but less than 23 m, measured in accordance with the UAE FLSC **[Ref. B.1]**. A more detailed definition is given in UAE FLSC.
+
+**Mixed use building:** Building or structure containing two or more occupancies.
+
+*Page B 8*
+
+--- Page 29 ---
+**Mosque, Awqat mosque:** Mosque building dedicated for the daily five prayers, usually located in the surrounding area of residential neighbourhoods.
+
+**Mosque, Eid Musalla:** Non-roofed open Musalla used for Eid prayer congregation.
+
+**Mosque, Jumaa mosque:** Mosque building dedicated for the daily five prayers and the Friday prayer attended by a large number of worshippers.
+
+**Neighbour:** Any adjacent plot excluding roads and sikkas.
+
+**Net area (NA):** Actual occupied area, not including unoccupied accessory areas such as corridors, stairways, ramps, toilet rooms, mechanical rooms and closets.
+
+**Net floor height:** Net distance between the finished floor level (FFL) of a floor and the exposed surface of the floor celling.
+
+**Nosing:** Projecting front edge of a stair tread or landing that can be rounded, chamfered or otherwise shaped.
+
+**Occupancy:** Purpose for which a building or portion thereof is used or intended to be used.
+
+**Occupant load:** Total number of persons that might occupy a building or portion thereof.
+
+**Occupiable space:** Room or enclosed space designed for human occupancy in which individuals congregate for amusement, labour, educational or similar purposes.
+
+**Office:** Building or space within a building in which business, clerical, or professional activities are conducted.
+
+**Open parking:** Parking occupancy where each parking level has permanent wall openings for natural ventilation purposes. The exterior sides of the structure have uniformly distributed openings on two or more sides. The area of such openings in external walls on a level is not less than 20% of the total perimeter wall area of each level. The total width of all of the openings considered to be providing natural ventilation is not less than 40% of the perimeter of the level.
+
+**Open space:** Portion of a plot or a building level that is set aside for public or private use and that is not occupied by rooms or equipment. The space may be used for passive or active recreation or may be reserved to protect or buffer natural areas.
+
+**Ornamental elements:** Elements that are added to the building for purpose of beautification or for expressing a certain message or a symbol.
+
+**Pantry:** Place for food preparation process or storage.
+
+**Parking:** Building, structure, or portion thereof used for the parking, storage, or both, of motor vehicles.
+
+**Parking bay:** Area occupied by a single vehicle depending on the position in which the vehicle is parked.
+
+**Parapet wall:** Part of a wall entirely above the roof line.
+
+**Paved:** Use of blacktop, asphalt, concrete or other similar substance to create a smooth surface, including bituminous penetration, but not the use of dirt, clay, slag or stone.
+
+**People of determination:** People with specific needs or disabilities, who are suffering from a temporary or permanent, full or partial deficiency or infirmity in their physical, sensory, mental, communication, educational or psychological abilities.
+
+**Pergola:** Shading device using solid material normally used for ornamentation or for shading (see Figure B.5).
+
+<figure type="technical_illustration" title="Figure B.5 Pergola">
+Elevation-style line drawing in white and teal showing a pergola structure over a paved seating area, with planting behind.
+- **01: Pergola** — leader to the horizontal slatted beam roof spanning between two square posts at either end
+- Occupants — silhouetted teal figures beneath the structure: a standing adult with a child at left, a seated figure at centre, and a group of three standing adults at right
+- Planting — outlined tree canopies and shrubs shown behind and around the structure
+- Ground — hatched paving band running across the base of the drawing
+
+**Key**
+
+| No. | Component |
+| --- | --- |
+| 01 | Pergola |
+
+Caption: Figure B.5 Pergola
+</figure>
+
+*Page B 9*
+
+--- Page 30 ---
+**Planning regulations:** Control by planning Authorities for the use of land and buildings, the height and massing of buildings, the density of population, and the relation of a plot's building coverage to open space, the size and location of yards and setbacks, and the provision of any ancilary facilities such as parking.
+
+**Plot:** Area of land that is:
+
+a) clearly defined (by landmarks, coordinates, distinct number, and the lengths of its sides and location);
+
+a) intended for construction under any approved plan or division project, or by any other method; and
+
+a) legally authorized to be used for construction or building as one unit.
+
+> NOTE (transcription): the three sub-items are all labelled "a)" in the source document; reproduced here as printed.
+
+**Plot area:** Total area of a plot between its boundary lines as measured on a horizontal plane.
+
+**Plot boundary:** Boundary dividing one plot from another, or from a street or any public place.
+
+**Plot coverage:** Horizontal area occupied by all main and annex buildings on the same plot, calculated from the external surfaces of external walls or useful roofed balconies in the ground or upper floors, whichever have more floor projections.
+
+**Podium (tower base):** Lower group of floors of a tower which might or might not include the ground floor, and have different planning requirements from the typical floors of the tower.
+
+**Post-consumer recycled content:** Waste material generated by households or any other public or private facilities in their role as end-users of the product, which can no longer be used for its original intended purpose.
+
+**Prayer room:** Dedicated room or space in buildings used to perform Islamic prayers which might or might not be used for group prayers.
+
+**Pre-consumer recycled content:** Material diverted from the waste stream during the manufacturing process. Reutilization of materials (i.e. rework, regrind or scrap generated in a process and capable of being reclaimed within the same process that generated it) is excluded.
+
+**Project:** Construction of a permanent building, or any other civil work on a leased property including any modifications or installations in pre-built facilities.
+
+**Public use:** Availability of interior or exterior rooms, spaces or elements for use by the public. Public use can be provided at a building or facility that is privately or publicly owned.
+
+**Public way:** Street, alley, or other plot of land open to the outside air, leading to a street, that has been deeded, dedicated or otherwise permanently appropriated for public use, and has a clear width and height of not less than 3 m.
+
+**Ramp:** Inclined solid flat plane that is steeper than 5% from the horizontal.
+
+**Recovery:** Processing waste to serve a useful purpose by replacing other materials which would otherwise have been used to fulfil that function. Examples include using waste to generate energy, or converting organic waste into compost.
+
+**Recycling:** Processing used materials into new products in order to prolong the life of useful materials, reduce the consumption of fresh raw materials, reduce energy usage, and reduce air and water pollution by reducing the need for "conventional" waste disposal.
+
+**Reflectance:** Measure of light reflected in a given direction by a surface and which is expressed in a unit term from 0 to 100 scale, respectively, that represents a grey scale progression from the notional extremes of total light absorption (black) to total light reflection (white).
+
+**Refuse chute:** Passage, commonly used in high-rise buildings, through which waste is carried by means of gravity to a waste container at the lower end.
+
+**Regulations:** Rules and statutes set by permitting or other governmental Authorities.
+
+**Residential:** Occupancy that provides sleeping accommodation with independent cooking and bathroom facilities where people live on a permanent basis.
+
+*Page B 10*
+
+--- Page 31 ---
+**Residential unit:** Single unit providing complete, independent living facilities for one or more persons, including permanent provisions for living, sleeping, eating, cooking and sanitation. An apartment can be a type of residential unit.
+
+**Retail:** Occupancy used for the stocking, display and sale of goods, wares or merchandise.
+
+**Reuse:** Activity that lengthens the life of an item, typically consisting of returning the item to active use in the same or related capacity.
+
+**Right of way (ROW):** Strip of land occupied or intended to be occupied by a road, sidewalk, crosswalk, railroad, electric transmission line, oil or gas pipeline, water line, sanitary storm sewer, and other similar uses; the right of one to pass over the property of another.
+
+**Riser:** Near-vertical element in a set of stairs, forming the space between one step and the next (see Figure B.4).
+
+**Road or street:** Public or private road allocated for vehicles or pedestrian use or both, except for sikka as defined in land use classification and regulations in Dubai.
+
+**Roof:** Floor or part of, located at the top level of the building and usually used for machinery and services equipment and/or providing building amenities and open spaces.
+
+**Roof deck:** Flat or sloped surface not including its supporting members or vertical supports.
+
+**Self-closing (of a door or other opening protective device):** Equipped with a device that enables closure from any position, and against any latch fitted, after having been opened.
+
+**Service corridor:** Fully enclosed passage used for transporting of goods and services.
+
+**Service entrance:** Entrance intended primarily for delivery of goods or services.
+
+**Shading device:** Projecting fixture that extends outside the external wall of any building, or a cover (such as a louver), to protect any door or window from rain or solar effect.
+
+**Shaft:** Enclosed unoccupied space extending through one or more stories of a building, connecting vertical openings in successive floors, or floors and roof.
+
+**Showroom:** Space allocated for conducting a trading business, such as displaying commodities for purpose of wholesale or retail sale.
+
+**Sidewalk:** Hard-surfaced walk or raised path along and parallel to the side of the street for pedestrians.
+
+**Signage:** Displayed verbal, symbolic and pictorial information.
+
+**Sikka:** Public or private path separating two adjacent plots or a group of adjacent plots, that can be used by pedestrians as a primary or secondary access to any plot.
+
+**Site:** Plot of land bounded by a plot line or a designated portion of a public right-of-way. A site can be a single plot or multiple plots together.
+
+**Skylight or overhead glazing:** Glass or other transparent or translucent glazing material installed at a slope of 15° or more from vertical.
+
+**Solar reflectance index (SRI):** Index that combines reflectivity and emissivity, measuring a material's ability to reject solar heat. SRI is defined such that a standard black (reflectance 0.05 and emittance 0.90) is 0 and a standard white (reflectance 0.80 and emittance 0.90) is 100. Materials with higher SRI absorb less heat and can reduce heat island effect.
+
+**Space:** Identifiable area including room, toilet, hall, assembly area, entrance, storage room, alcove, courtyard or lobby.
+
+**Staff accommodation:** Building or part thereof in which sleeping units are provided and/or rented, and with private toilets and shared cooking facilities, for joint occupancy by staff members affiliated with a university, hospital, school or similar institutions.
+
+**Stage:** Raised area within a building used for the presentation of music, plays or other entertainment; the head table for special guests; the raised area for lecturers and speakers; boxing and wrestling rings; theatre stages; and similar purposes.
+
+*Page B 11*
+
+--- Page 32 ---
+**Stair:** Change in elevation, consisting of one or more risers.
+
+**Staircase:** Space inside the building within which the stairs are erected.
+
+**Stairway:** One or more flights of stairs, either exterior or interior, with necessary landings and platforms connecting them to form a continuous and uninterrupted passage from one level to another.
+
+**Structure:** Constructed, erected material or combination of materials which requires being located on the ground or attached to something located on the ground.
+
+**Student accommodation:** Building or part thereof in which sleeping units are provided for occupancy by university, school or other educational institute's students and which is regulated by such institution.
+
+**Studio:** Independent residential unit with combined living room and bedroom and space provision for food preparation and sanitation.
+
+**Super high-rise building:** Building height greater than 90 m, measured in accordance with the UAE FLSC **[Ref. B.1]**. A more detailed definition is given in UAE FLSC.
+
+**Swimming pool:** Constructed pool for swimming, bathing or wading whether above or below the ground surface regardless of depth or water surface area.
+
+**Tandem parking:** Two or more parking bays with one of the spaces placed behind the other.
+
+**Terrace:** Covered or uncovered platform or roof, protected by a guardrail or parapet wall and supported by the structure of the floor below.
+
+**Toilet stall:** Cubicle within a public toilet constructed with demountable partitions or walls surrounding a water closet.
+
+**Tread:** Stepping space in a stair flight to set the foot (see Figure B.4).
+
+**Vehicle access:** Roadway, usually paved, intended to provide ingress and egress of vehicular traffic from a public right-of-way to a building entrance or parking area.
+
+**Vehicle barrier:** Component or system of components, near open sides of a parking floor or ramp or building walls that act as restraints for vehicles.
+
+**Warehouse:** Occupancy used primarily for the storage or sheltering of goods, merchandise, products, or vehicles.
+
+**Waste:** Unwanted or unusable materials which are discarded after their primary use.
+
+**Waste room:** Room dedicated for the purpose of holding, prior to disposal, waste generated in the building. This room can be located within the plot limits or within building enclosure, subject to the approval of Authorities.
+
+**Waste segregation:** Separation or sorting of waste materials into their respective fractions, such as the separation of recyclables.
+
+**Water closet:** Toilet bowl and its attached accessories.
+
+**Wayfinding:** System of providing appropriate information to assist a person to pass through the built environment towards a specific destination. Wayfinding includes orienting oneself, knowing one's destination, following the best route, recognizing one's destination and finding one's way back out.
+
+**Wind towers:** Shelter with 50% of its area open to the sky usually constructed to enhance the architectural beauty of a building or to suit a certain climate need.
+
+*Page B 12*
+
+--- Page 33 ---
+### B.2.2 Acronyms and abbreviations
+
+| Acronym | Meaning |
+| --- | --- |
+| Ch. | Chapter |
+| DCR | Development Control Regulations |
+| DBC | Dubai Building Code |
+| DCAA | Dubai Civil Aviation Authority |
+| DHA | Dubai Health Authority |
+| DHCA | Dubai Healthcare City Authority |
+| DCD | Dubai Civil Defence |
+| DEWA | Dubai Electricity and Water Authority |
+| DM | Dubai Municipality |
+| DM PH&SD | Dubai Municipality, health and safety department |
+| DTCM | Department of Tourism and Commerce Marketing |
+| EIA | environment impact assessment |
+| EIAR | environment impact assessment report |
+| EIAS | environment impact assessment summary |
+| EMC | electromagnetic compatibility |
+| FFL | finished floor level |
+| FGI | Facility Guidelines Institute |
+| G | ground floor |
+| GA | gross area |
+| IBC | International Building Code |
+| LPG | liquefied petroleum gas |
+| MEP | mechanical, electrical and plumbing |
+| NA | net area |
+| RCC | reinforced concrete |
+| RMU | ring main unit |
+| RTA | Roads and Transport Authority |
+| SRI | solar reflectance index |
+| TIA | traffic impact assessment |
+| TIS | traffic impact study |
+| UAE FLSC | United Arab Emirates Fire and Life Safety Code of Practice |
+
+*Page B 13*
+
+--- Page 34 ---
+## B.3 References
+
+### B.3.1 Essential references
+
+ASCE/SEI 7-16, *Minimum design loads and associated criteria for buildings and other structures*
+
+ASTM F1346-91, *Standard performance specification for safety covers and labelling requirements for all covers for swimming pools, spas and hot tubs*
+
+BS 1703, *Refuse chutes and hoppers – Specification*
+
+BS EN 840-1, *Mobile waste and recycling containers – Containers with 2 wheels with a capacity up to 400 l for comb listing devices – Dimensions and design*
+
+BS EN 840-2, *Mobile waste and recycling containers – Containers with 4 wheels with a capacity up to 1,300 l with flat lid(s), for trunnion and/or comb lifting devices – Dimensions and design*
+
+BS EN 840-3, *Mobile waste and recycling containers – Containers with 4 wheels with a capacity up to 1,300 l with dome lid(s), for trunnion and/or comb lifting devices – Dimensions and design*
+
+BS EN 840-4, *Mobile waste and recycling containers – Containers with 4 wheels with a capacity up to 1,700 l with flat lid(s), for wide trunnion or BG- and/or wide comb lifting devices – Dimensions and design*
+
+BS EN 12574-1, *Stationary waste containers – Containers with a capacity up to 10,000 l with flat or dome lid(s), for trunnion, double trunnion or pocket lifting devices – Dimensions and design*
+
+BS EN 14010:2003+A1:2009, *Safety of machinery – Equipment for power driven parking of motor vehicles – Safety and EMC requirements for design, manufacturing, erection and commissioning stages*
+
+DIN 30722-1, *Roller contact tipper vehicles, roller containers – Part 1: Roller contact tipper vehicles up to 26 t, roller containers type 1570 made from steel*
+
+DIN 30722-2, *Roller contact tipper vehicles, roller containers – Part 2: Roller contact tipper vehicles up to 32 t, roller containers type 1570 made from steel.*
+
+DIN 30722-3, *Roller contact tipper vehicles, roller containers – Part 3: Roller contact tipper vehicles up to 12 t, roller containers type 900 made from steel*
+
+ISO 14021, *Environmental labels and declarations – Self-declared environmental claims (Type II environmental labelling)*
+
+PD ISO/TS 22002-2, *Prerequisite programmes on food safety – Catering*
+
+**Ref. B.1** UAE MINISTRY OF INTERIOR GENERAL COMMAND OF CIVIL DEFENCE, 2018. *UAE Fire and Life Safety Code of Practice (UAE FLSC)*. United Arab Emirates: Ministry of Interior General Command of Civil Defence.
+
+**Ref. B.2** ROADS AND TRANSPORT AUTHORITY, 2017. *RTA Railway Protection Code for the Emirate of Dubai, Seventh Edition*. Dubai: Roads and Transport Authority.
+
+**Ref. B.3** DUBAI HEALTH AUTHORITY, 2012. *Hospital regulation*. Dubai: Dubai Health Authority.
+
+**Ref. B.4** DUBAI HEALTH AUTHORITY, 2012. *Standards for day surgery centers*. Dubai: Dubai Health Authority.
+
+**Ref. B.5** DUBAI HEALTH AUTHORITY, 2012. *Outpatient care facilities regulation*. Dubai: Dubai Health Authority.
+
+**Ref. B.6** DUBAI HEALTH AUTHORITY, 2012. *Clinical laboratory regulation*. Dubai: Dubai Health Authority.
+
+**Ref. B.7** DUBAI HEALTH AUTHORITY, 2012. *Diagnostic imaging services regulation*. Dubai: Dubai Health Authority.
+
+**Ref. B.8** DUBAI HEALTH AUTHORITY, 2013. *Dental laboratory regulation*. Dubai: Dubai Health Authority.
+
+**Ref. B.9** DUBAI HEALTH AUTHORITY, 2014. *School clinic regulation*. Dubai: Dubai Health Authority.
+
+**Ref. B.10** DUBAI HEALTH AUTHORITY, 2016. *Regulation for oncology services*. Dubai: Dubai Health Authority.
+
+**Ref. B.11** DUBAI HEALTH AUTHORITY, 2016. *Optical center and optometry services*. Dubai: Dubai Health Authority.
+
+*Page B 14*
+
+--- Page 35 ---
+**Ref. B.12** DUBAI HEALTH AUTHORITY, 2013. *Regulation for renal dialysis services*. Dubai: Dubai Health Authority.
+
+**Ref. B.13** DUBAI HEALTH AUTHORITY, 2019. *DHA Health facility guidelines. Part A – Administrative provisions*. Dubai: Dubai Health Authority.
+
+**Ref. B.14** DUBAI HEALTH AUTHORITY, 2019. *Health facility guidelines. Part B – Health facility briefing and design*. Dubai: Dubai Health Authority.
+
+**Ref. B.15** DUBAI HEALTH AUTHORITY, 2019. *Health facility guidelines. Part C – Access, mobility, OH&S*. Dubai: Dubai Health Authority.
+
+**Ref. B.16** DUBAI HEALTH AUTHORITY, 2019. *Health facility guidelines. Part D – Infection prevention and control*. Dubai: Dubai Health Authority.
+
+**Ref. B.17** DUBAI HEALTH AUTHORITY, 2019. *DHA Health facility guidelines. Part E – Engineering*. Dubai: Dubai Health Authority.
+
+**Ref. B.18** DUBAI HEALTH AUTHORITY, 2019. *Health facility guidelines. Part F – Feasibility, planning and costing*. Dubai: Dubai Health Authority.
+
+**Ref. B.19** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2019, *Hotel classification criteria for hotels, guest houses and hotel apartments*, Dubai: DTCM. Available from: www.dubaitourism.gov.ae/en/services.
+
+**Ref. B.20** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Dubai hotel classification – Budget hotel criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.21** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel 1 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.22** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel 2 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.23** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel 3 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.24** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel 4 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.25** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel 5 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.26** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel apartment standard criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.27** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel apartment deluxe criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.28** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Hotel apartment superior criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.29** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Resort 3 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.30** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Resort 4 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.31** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Resort 5 star criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.32** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Guest house "standard" criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.33** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Guest house "deluxe" criteria*. Dubai: Department of Tourism and commerce marketing.
+
+*Page B 15*
+
+--- Page 36 ---
+**Ref. B.34** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *Youth hostel criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.35** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2014. *University campus criteria*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.36** DEPARTMENT OF TOURISM AND COMMERCE MARKETING, 2019. *Licensing and classification manual for hotels, guest houses and hotel apartments in the Emirate of Dubai*. Dubai: Department of Tourism and commerce marketing.
+
+**Ref. B.37** ROADS AND TRANSPORT AUTHORITY. *Dubai Access management manual*. Dubai: Roads and Transport Authority.
+
+**Ref. B.38** ROADS AND TRANSPORT AUTHORITY, 2017. *Geometric design manual for Dubai Roads*. Dubai: Roads and Transport Authority.
+
+**Ref. B.39** *International commission on illumination, CIE 115:2010, Lighting of roads for motor and pedestrian traffic*
+
+**Ref. B.40** ROADS AND TRANSPORT AUTHORITY, 2013. *Dubai trip generation and parking rates manual*. Dubai: Roads and Transport Authority.
+
+**Ref. B.41** INTERNATIONAL CODE COUNCIL, 2015. *International Building Code*. Washington: International Code Council.
+
+**Ref. B.42** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2010. *DM-PH&SD-P4-TG17 – Guidelines for first aid requirement*. Dubai: Public Health and Safety Department.
+
+**Ref. B.43** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-PH&SD-GU81-PSPS2 – Public swimming pools safety guidelines*. Dubai: Public Health and Safety Department.
+
+**Ref. B.44** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-PH&SD-GU80-PRSPS2 – Private swimming pools safety guidelines*. Dubai: Public Health and Safety Department.
+
+**Ref. B.45** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2019. *DM-PH&SD-P7-TG01 – Guidelines for swimming pool safety*. Dubai: Public Health and Safety Department.
+
+**Ref. B.46** PUBLIC HEALTH AND SAFETY DEPARTMENT, undated. *Technical Guidelines*. Dubai: Public Health and Safety Department. Available from: www.dm.gov.ae/municipality-business/health-and-safety/technical-guidelines-list/
+
+**Ref. B.47** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-PH&SD-GU13-FCC2 – Technical guidelines for fitness centres compliance*. Dubai: Public Health and Safety Department.
+
+**Ref. B.48** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-H & SD-GU02-SEPA – Guideline for safety in events/play area*. Dubai: Public Health and Safety Department.
+
+**Ref. B.49** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-PH&SD-GU15-EIC2 – Technical guidelines for educational institutes compliance*. Dubai: Public Health and Safety Department.
+
+**Ref. B.50** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-PH&SD-GU19-CSMC2 – Technical guidelines for compliance of spa and massage centers*. Dubai: Public Health and Safety Department.
+
+**Ref. B.51** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-PH&SD-GU73-SUL2 – Technical guideline on safe use of ladders*. Dubai: Public Health and Safety Department.
+
+**Ref. B.52** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2020. *DM-PH&SD-P4-TG26 – Safety and health requirements for laundry operations*. Dubai: Public Health and Safety Department.
+
+**Ref. B.53** PUBLIC HEALTH AND SAFETY DEPARTMENT, 2018. *DM-PH&SD-P7-WI06 – Health requirements for health clubs*. Dubai: Public Health and Safety Department.
+
+**Ref. B.54** FOOD CONTROL DEPARTMENT, FOOD STUDIES & PLANNING SECTION, 2015. *The general hygiene requirements of food establishments*. Dubai: Food Control Department.
+
+*Page B 16*
+
+--- Page 37 ---
+**Ref. B.55** DUBAI MUNICIPALITY, 2019. *Planning guidelines for public amenities*. Dubai: Dubai Municipality.
+
+**Ref. B.56** FACILITY GUIDELINES INSTITUTE, 2014. *Guidelines for design and construction of hospitals and outpatient facilities 2014*. USA: American Hospital Association.
+
+**Ref. B.57** GOVERNMENT OF DUBAI, 2003. *Local Order No. (11), Public health and safety of the society in the Emirate of Dubai*. Dubai: Dubai Municipality.
+
+**Ref. B.58** GOVERNMENT OF DUBAI, 2009. *Administrative resolution No. (29) prescribing the adoption of "Manual of regulating smoking in public places"*. Dubai: Dubai Municipality.
+
+### B.3.2 Further reading
+
+There is no further reading in this Part.
+
+*Page B 17*
+
+--- Page 38 ---
+## B.4 General architectural provisions
+
+### B.4.1 General requirements
+
+Buildings shall be designed according to the planning limitations and provisions required by the Authorities, as stipulated in development control regulations (DCR) and/or affection plans. Limitations on development include, but are not limited to:
+
+a) authorized use of the building;
+
+b) building setbacks;
+
+c) floor to area ratio;
+
+d) access locations;
+
+e) the gate level;
+
+f) building service lines.
+
+Buildings located in heritage areas shall respect the identity of these areas and shall adhere to any conservation requirements imposed by the Authorities.
+
+The building or development should take the following into account:
+
+1) Arabic and Islamic cultural identity;
+
+2) local architectural character, especially for buildings of cultural significance;
+
+3) the building's relationship with the surrounding environment;
+
+4) the building's compatibility with the planning limitations and urban planning themes of surrounding developments.
+
+The massing of the proposed building should take into account the visual privacy of adjacent structures and buildings in the surrounding properties and neighbourhoods, as well as the privacy of different uses and occupancies within the same development.
+
+### B.4.2 Development limitation
+
+#### B.4.2.1 Gate level
+
+The gate level is a defined height on the plot boundary at the vehicular or pedestrian access point to the plot. It is an elevation difference between the road level (existing or future) and the level of the plot's access point.
+
+The gate level of a plot shall be a minimum height of +300 mm from the edge of the road or a slope of between 2-5% from the edge of the road to the plot's access point.
+
+The gate level, and the levels of the plot's corners, are calculated based on Dubai Roads and Transport Authority's (RTA) standard cross-section of road right of way (ROW), next to the plot.
+
+*Page B 18*
+
+--- Page 39 ---
+#### B.4.2.2 Building height
+
+Building heights shall follow the DCRs and affection plans.
+
+Buildings plots located in areas requiring Dubai Civil Aviation Authority (DCAA) approval (as noted in the affection plan, DCR or DCAA map) shall meet the Authority's requirements and the height limitation imposed.
+
+Building height shall be calculated from the approved road edge level at the main plot access to the average finished floor level (FFL) of the roof as shown in Figure B.6.
+
+The total building height is the vertical distance measured from the approved road edge level at the main plot access to the highest roof surface or element.
+
+Building ground should be elevated from adjacent roads to protect from flooding. Elevated access points shall also meet the requirements in **C.5.**
+
+<figure type="technical_drawing" title="Figure B.6 Building height">
+Schematic section through a building and its adjoining road, drawn in thin black and teal lines, with vertical dimension lines at the left and ten numbered circular callouts.
+
+- **04: Total building height** — the outer (taller) vertical dimension line at far left, running from the road edge level up to the top of the roof structure (08)
+- **05: Building height** — the inner vertical dimension line, running from the road edge level up to the roof level (02), i.e. the average finished floor level of the roof
+- **07: Road edge level** — a filled level-triangle datum symbol at the base of the left dimension lines, on the road
+- **2%-5%** — annotated slope of the ground between the road edge level (07) and the gate level (06), shown along the sloping ground line
+- **06: Gate level** — level-triangle datum symbol at the plot access point, at the top of the sloped ground
+- **01: Plot limit** — vertical dashed line rising from the gate level, marking the plot boundary
+- **02: Roof level** — level-triangle datum symbol on the roof slab of the main mass, at upper right
+- **03: Last floor** — the topmost occupied floor, immediately below roof level
+- **08: Roof structure** — the raised element above roof level at top right (the highest roof surface or element)
+- **09: Ground floor** — the storey at the right at gate level
+- **10: Basement** — the lowest storey shown, below ground floor
+
+**Key**
+
+| No. | Element |
+| --- | --- |
+| 01 | Plot limit |
+| 02 | Roof level |
+| 03 | Last floor |
+| 04 | Total building height |
+| 05 | Building height |
+| 06 | Gate level |
+| 07 | Road edge level |
+| 08 | Roof structure |
+| 09 | Ground floor |
+| 10 | Basement |
+
+Caption: Figure B.6 Building height
+</figure>
+
+*Page B 19*

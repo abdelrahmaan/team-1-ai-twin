@@ -7,13 +7,16 @@
 *.pdf
 
 # Parsed output — see README "Data and copyright" before publishing
-data/
-*.full_text.txt
+# data/
+# *.full_text.txt
 
 # Python
 venv/
+.venv/
 __pycache__/
 *.pyc
 
 # macOS
 .DS_Store
+
+.docs/
