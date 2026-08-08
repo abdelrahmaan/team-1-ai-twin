@@ -7,11 +7,8 @@ Edit this file, then run: python setup_agent.py
 # ── Agent identity ─────────────────────────────────────────────────────
 AGENT_NAME = "My Voice Assistant"
 
-# The agent's role / behavior. Edit this freely.
-SYSTEM_PROMPT = """You are a helpful, concise voice assistant.
-Speak naturally, keep answers short unless asked for detail.
-If the user's question relates to an attached document, use it to answer accurately.
-"""
+# The agent's role / behavior. Defined in prompts.py (persona + DBC reference material).
+from prompts import SYSTEM_PROMPT
 
 FIRST_MESSAGE = "Hi! I'm ready to help. What would you like to talk about?"
 
