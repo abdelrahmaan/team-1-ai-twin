@@ -38,7 +38,7 @@ The system has three parts that all live in this repo:
                                                                                           │
                                               ┌───────────────────────────────────────────┘
                                               ▼
-                     elevenlabs-chat/ (React, @elevenlabs/react)  ──or──  legacy/index.html (legacy)
+                                    elevenlabs-chat/ (React, @elevenlabs/react)
                                               │
                                         end user (chat + voice, WebSocket/WebRTC)
 ```
@@ -72,7 +72,7 @@ package, run as `python -m agent.setup_agent`.
 
 ### 3.3 Client UI
 
-- **`elevenlabs-chat/`** — current UI. React 19 + Vite + Tailwind v4, using
+- **`elevenlabs-chat/`** — the client UI. React 19 + Vite + Tailwind v4, using
   `@elevenlabs/react`. `src/hooks/useAgent.ts` is the sole file touching the
   ElevenLabs SDK, exposing `messages`, `state`, `getLevel`, `send`,
   `startVoice`, `stop` so components stay provider-agnostic. Typing and
@@ -82,14 +82,11 @@ package, run as `python -m agent.setup_agent`.
   transform directly to the DOM rather than through React state, to avoid
   re-rendering at 60fps. Configured via `elevenlabs-chat/.env.local`
   (`VITE_ELEVENLABS_AGENT_ID`).
-- **`legacy/index.html`** — legacy UI. No build step; a single
-  `<elevenlabs-convai>` embed with a hardcoded `agent-id`.
 
 ### 3.4 Dev environment
 
 `Dockerfile` bundles Python 3.12, `uv`, and `poppler-utils`.
-`docker-compose.yml` bind-mounts the repo and forwards port 8000 for the
-legacy `legacy/index.html` UI. Dependencies are managed with `uv`
+`docker-compose.yml` bind-mounts the repo. Dependencies are managed with `uv`
 (`pyproject.toml` / `uv.lock`), with `requirements.txt` kept in sync for
 plain-`pip` use.
 

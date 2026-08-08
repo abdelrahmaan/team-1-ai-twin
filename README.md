@@ -31,6 +31,15 @@ spot. That means faster decisions, fewer costly mistakes, and a team that
 presents with real authority — letting even a small practice walk into a meeting
 with the instant regulatory recall of a much larger firm.
 
+## Run locally
+
+Once you've set up your API key and created an agent (see steps 1-4 below), start the UI with:
+
+```bash
+cd elevenlabs-chat
+npm run dev
+```
+
 ## Files
 
 | File                  | Purpose                                                        |
@@ -45,8 +54,7 @@ with the instant regulatory recall of a much larger firm.
 | `data/`                | Dubai Building Code reference material — see [Building the reference material](#building-the-reference-material) |
 | `scripts/extract_text.py` | Dumps the DBC PDF's text layer for a page range, or builds a full-text cache |
 | `scripts/assemble.py`  | Merges per-batch page JSON into one parsed-document JSON          |
-| `elevenlabs-chat/`     | **Current UI** — a ChatGPT-style React client (chat + voice mode). See its own README for details |
-| `legacy/index.html`    | Legacy minimal UI — one button, no build step required          |
+| `elevenlabs-chat/`     | React UI — a ChatGPT-style client (chat + voice mode). See its own README for details |
 
 ## Prerequisites
 
@@ -119,8 +127,6 @@ python -m agent.setup_agent --agent-id agent_xxx
 
 ## 5. Run the UI
 
-**Current UI — `elevenlabs-chat/`** (React, chat + full-screen voice mode):
-
 ```bash
 cd elevenlabs-chat
 npm install          # first time only
@@ -139,19 +145,8 @@ npm run dev
 and visit `http://localhost:5173`. See `elevenlabs-chat/README.md` for how
 it's built.
 
-**Legacy UI — `legacy/index.html`** (no build step, one button):
-
-Paste your `AGENT_ID` into the `agent-id="..."` attribute on the
-`<elevenlabs-convai>` tag, then either double-click `legacy/index.html` to open it
-directly in a browser, or serve it locally:
-```bash
-cd legacy && python -m http.server 8000
-```
-and visit `http://localhost:8000`.
-
-Either way: click the widget/button, allow microphone access, and start
-talking — you'll hear the agent respond in real time and can interrupt it
-mid-sentence.
+Click the widget/button, allow microphone access, and start talking —
+you'll hear the agent respond in real time and can interrupt it mid-sentence.
 
 ## Building the reference material
 
@@ -184,7 +179,7 @@ Edition.pdf`, not committed — see [Data and copyright](#data-and-copyright)):
 
 The `Dockerfile` bundles Python 3.12, `uv`, and `poppler-utils` (for
 `scripts/extract_text.py`). `docker-compose.yml` bind-mounts the repo into the
-container and forwards port 8000 (for the legacy `legacy/index.html` UI):
+container:
 
 ```bash
 docker compose build

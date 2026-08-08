@@ -113,8 +113,7 @@ def main():
     else:
         print("No PDF provided.")
 
-    print("\nPut this in elevenlabs-chat/.env.local as VITE_ELEVENLABS_AGENT_ID")
-    print("(or in legacy/index.html's agent-id field for the legacy UI):")
+    print("\nPut this in elevenlabs-chat/.env.local as VITE_ELEVENLABS_AGENT_ID:")
     print(agent_id)
 
 
