@@ -1,61 +1,22 @@
-import { useCallback, useState } from 'react'
-import { ChatView } from './components/ChatView'
-import { Composer } from './components/Composer'
-import { Header } from './components/Header'
-import { SetupNotice } from './components/SetupNotice'
-import { VoiceView } from './components/VoiceView'
-import { AGENT_ID } from './config'
-import { useAgent } from './hooks/useAgent'
-
-type Mode = 'chat' | 'voice'
-
-function Assistant({ agentId }: { agentId: string }) {
-  const [mode, setMode] = useState<Mode>('chat')
-  const [draft, setDraft] = useState('')
-  const agent = useAgent(agentId)
-
-  const submit = useCallback(() => {
-    const text = draft
-    setDraft('')
-    void agent.send(text)
-  }, [agent, draft])
-
-  const startVoice = useCallback(async () => {
-    const started = await agent.startVoice()
-    if (started) setMode('voice')
-  }, [agent])
-
-  const endVoice = useCallback(() => {
-    agent.stop()
-    setMode('chat')
-  }, [agent])
-
-  return (
-    <div className="flex h-full flex-col">
-      <Header />
-
-      {mode === 'voice' ? (
-        <VoiceView getLevel={agent.getLevel} state={agent.state} />
-      ) : (
-        <ChatView messages={agent.messages} />
-      )}
-
-      <Composer
-        draft={draft}
-        onDraftChange={setDraft}
-        onSubmit={submit}
-        mode={mode}
-        onStartVoice={startVoice}
-        onEndVoice={endVoice}
-        isMuted={agent.isMuted}
-        onToggleMute={() => agent.setMuted(!agent.isMuted)}
-        error={agent.error}
-      />
-    </div>
-  )
-}
+import { useCallback, useEffect, useState } from 'react'
+import { pathForRoute, routeForPath, type Route } from './lib/routes'
+import { Assistant } from './pages/Assistant'
+import { Landing } from './pages/Landing'
 
 export default function App() {
-  if (!AGENT_ID) return <SetupNotice />
-  return <Assistant agentId={AGENT_ID} />
+  const [route, setRoute] = useState<Route>(() => routeForPath(window.location.pathname))
+
+  useEffect(() => {
+    const onPopState = () => setRoute(routeForPath(window.location.pathname))
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [])
+
+  const navigate = useCallback((next: Route) => {
+    window.history.pushState(null, '', pathForRoute(next))
+    setRoute(next)
+  }, [])
+
+  if (route === 'app') return <Assistant />
+  return <Landing onLaunch={() => navigate('app')} />
 }
