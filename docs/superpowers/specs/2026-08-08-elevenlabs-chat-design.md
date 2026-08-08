@@ -83,7 +83,7 @@ agent speaks and pulses gently while listening. No WebGL, no shader dependency.
 
 | Case | Behaviour |
 | --- | --- |
-| No agent ID configured | `SetupNotice` renders with the exact `.env.local` line to add |
+| No agent ID configured | `SetupNotice` renders with the exact `.env` line to add |
 | Microphone permission denied | Inline message under the composer; app stays usable in text mode |
 | Connection drops or fails | Status returns to idle; composer stays interactive; no white screen |
 
@@ -96,7 +96,7 @@ No unit tests for gradient animation.
 
 ## Configuration
 
-`.env.local`:
+`.env`:
 
 ```
 VITE_ELEVENLABS_AGENT_ID=your_agent_id
