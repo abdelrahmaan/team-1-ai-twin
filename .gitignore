@@ -1,0 +1,19 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Source documents (large binaries, third-party copyright)
+*.pdf
+
+# Parsed output — see README "Data and copyright" before publishing
+data/
+*.full_text.txt
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
