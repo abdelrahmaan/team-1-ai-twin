@@ -5,9 +5,18 @@ with an animated orb, on one page.
 
 ## Setup
 
+`.env.example` ships with a working test agent ID, so for a quick local run you can just:
+
+```bash
+cp .env.example .env.local
+npm run dev
+```
+
+To point at your own agent instead:
+
 1. Create an agent at [elevenlabs.io](https://elevenlabs.io) — prompt, voice, knowledge base,
    tools. Set it to **Public** so the browser can connect without an API key.
-2. Copy the agent ID into `.env.local`:
+2. Put its ID into `.env.local`:
 
    ```
    VITE_ELEVENLABS_AGENT_ID=your_agent_id
@@ -20,6 +29,10 @@ with an animated orb, on one page.
    ```
 
 Without an agent ID the app shows a setup screen instead of the chat.
+
+> The shared test agent ID is public and unauthenticated — anyone with it can use it and
+> consume ElevenLabs credits. Fine for testing/demo purposes; swap in your own agent for
+> anything that matters.
 
 ## Scripts
 

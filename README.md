@@ -132,7 +132,13 @@ cd elevenlabs-chat
 npm install          # first time only
 ```
 
-Put your `AGENT_ID` in `elevenlabs-chat/.env.local`:
+`elevenlabs-chat/.env.example` ships with a working test `AGENT_ID`, so for a quick run:
+```bash
+cp .env.example .env.local
+```
+
+Or, to use the agent you just created/updated, put its ID in `elevenlabs-chat/.env.local`
+instead:
 ```
 VITE_ELEVENLABS_AGENT_ID=agent_xxx
 ```
