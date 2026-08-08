@@ -5,6 +5,32 @@ client and consultant meetings in Dubai. Mizan answers questions grounded in the
 Dubai Building Code (DBC), citing the exact clause or table behind every answer,
 and defers instead of guessing when something isn't in its reference material.
 
+## Idea
+
+Mizan sits in on architectural client meetings. When a tricky question comes up,
+the architect asks it out loud — "Mizan, what's our height limit here?" — and it
+answers in a couple of seconds, in natural speech, quoting the exact rule from the
+Dubai Building Code and the firm's own documents.
+
+**The problem.** In client and consultant meetings, architects and managers
+constantly face questions that need a precise, sourced answer — a setback figure,
+a height cap, a clause in the signed agreement. But the right specialist isn't
+always in the room, or the fact is buried in a 300-page code. So the team either
+concedes a point they shouldn't, or says "let me check and get back to you" —
+losing momentum and looking less authoritative in front of the client.
+
+**The solution.** A voice agent grounded in the actual regulations and the firm's
+contracts, that supplies the missing fact instantly and cites its source, so
+anyone can verify it. Just as importantly, when it doesn't have a reliable
+answer, it says so and points to the right authority instead of guessing — which
+is what makes an architect trust it in a high-stakes room.
+
+**The impact.** Teams stop stalling and start answering. Instead of "we'll
+revert," points get resolved live, with a citation the client can check on the
+spot. That means faster decisions, fewer costly mistakes, and a team that
+presents with real authority — letting even a small practice walk into a meeting
+with the instant regulatory recall of a much larger firm.
+
 ## Files
 
 | File                  | Purpose                                                        |
