@@ -29,7 +29,7 @@ AI-Twin/
   ```python
   def search_web(query: str, num_results: int = 10) -> list[SearchResult]
   ```
-  Calls `client.web.search(query=query, numResults=num_results)` — markdown scraping (`markdownOptions.enabled`) left off, since the endpoint returns lightweight results only. Maps each item in the response's `results[]` into a `SearchResult` (`url`, `title`, `description`, `relevance`).
+  Calls `client.web.search(query=query, num_results=num_results)` (Python SDK uses snake_case params) — markdown scraping (`markdown_options`) left off, since the endpoint returns lightweight results only. Maps each item in the response's `results[]` (a list of pydantic `Result` objects with `.url`, `.title`, `.description`, `.relevance` attributes) into our own `SearchResult` schema.
 - **`routers/search.py`**: `GET /search?q=...&num_results=10` — validates input, delegates to the service, returns a `SearchResponse`.
 - **`schemas.py`**:
   - `SearchResult`: `url: str`, `title: str`, `description: str`, `relevance: Literal["high", "medium", "low"]`
