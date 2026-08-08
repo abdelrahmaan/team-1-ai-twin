@@ -7,6 +7,6 @@ services:
     env_file:
       - .env
     ports:
-      - "8000:8000" # python -m http.server 8000, for index.html
+      - "8000:8000" # python -m http.server 8000, for legacy/index.html
     stdin_open: true
     tty: true

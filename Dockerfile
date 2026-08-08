@@ -16,6 +16,6 @@ COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-install-project
 
 COPY scripts/ scripts/
-COPY config.py setup_agent.py ./
+COPY agent/ agent/
 
 CMD ["bash"]

@@ -35,17 +35,18 @@ with the instant regulatory recall of a much larger firm.
 
 | File                  | Purpose                                                        |
 |-----------------------|------------------------------------------------------------------|
-| `config.py`            | Settings: agent name, LLM model, voice, PDF path, file uploads  |
-| `prompts.py`           | Builds `SYSTEM_PROMPT` — Mizan's persona plus DBC reference material from `data/dbc_reference.txt` |
-| `setup_agent.py`       | Creates a new agent, or updates an existing one in place (`--agent-id`), from `config.py` |
+| `agent/config.py`      | Settings: agent name, LLM model, voice, PDF path, file uploads  |
+| `agent/prompts.py`     | Builds `SYSTEM_PROMPT` — Mizan's persona plus DBC reference material from `data/dbc_reference.txt` |
+| `agent/setup_agent.py` | Creates a new agent, or updates an existing one in place (`--agent-id`), from `config.py` |
 | `pyproject.toml` / `uv.lock` | Python dependencies, managed with [uv](https://docs.astral.sh/uv/) |
 | `requirements.txt`     | Same dependencies, for plain `pip` (no uv required)              |
+| `.env.example`         | Template for the root `.env` (just `ELEVENLABS_API_KEY`)        |
 | `Dockerfile` / `docker-compose.yml` | Containerized dev environment (uv + poppler) — see [Docker](#docker) |
 | `data/`                | Dubai Building Code reference material — see [Building the reference material](#building-the-reference-material) |
 | `scripts/extract_text.py` | Dumps the DBC PDF's text layer for a page range, or builds a full-text cache |
 | `scripts/assemble.py`  | Merges per-batch page JSON into one parsed-document JSON          |
 | `elevenlabs-chat/`     | **Current UI** — a ChatGPT-style React client (chat + voice mode). See its own README for details |
-| `index.html`           | Legacy minimal UI — one button, no build step required          |
+| `legacy/index.html`    | Legacy minimal UI — one button, no build step required          |
 
 ## Prerequisites
 
@@ -73,6 +74,11 @@ Or skip local setup entirely and use [Docker](#docker).
 ## 2. Set your API key
 
 ```bash
+cp .env.example .env   # then fill in ELEVENLABS_API_KEY
+```
+
+or export it directly:
+```bash
 export ELEVENLABS_API_KEY=your_api_key_here
 ```
 
@@ -80,7 +86,7 @@ export ELEVENLABS_API_KEY=your_api_key_here
 
 ## 3. Configure the agent
 
-Open `config.py` and edit:
+Open `agent/config.py` and edit:
 
 - `AGENT_NAME` — the agent's display name in your ElevenLabs dashboard
 - `LLM_MODEL` — which model powers it (e.g. `gemini-2.0-flash`, `gpt-4o`, `claude-sonnet-4-5`)
@@ -88,27 +94,27 @@ Open `config.py` and edit:
 - `PDF_PATH` — optional, leave as `None` if you don't want to give it an extra document
 
 The agent's persona and behavior rules (and the DBC reference material) live in
-`prompts.py`, not `config.py` — edit `AGENT_PERSONA_PROMPT` there to change how Mizan
-talks or what it prioritizes.
+`agent/prompts.py`, not `agent/config.py` — edit `AGENT_PERSONA_PROMPT` there to change how
+Mizan talks or what it prioritizes.
 
 ## 4. Create (or update) the agent
 
 Create a new agent, without an extra PDF:
 ```bash
-python setup_agent.py
+python -m agent.setup_agent
 ```
 
 Create a new agent, with a PDF attached as extra knowledge-base context:
 ```bash
-python setup_agent.py --pdf path/to/document.pdf
+python -m agent.setup_agent --pdf path/to/document.pdf
 ```
 
 This prints an `AGENT_ID`. Copy it.
 
-Already have an agent and just changed `config.py` or `prompts.py`? Update
+Already have an agent and just changed `agent/config.py` or `agent/prompts.py`? Update
 it in place instead of creating a new one:
 ```bash
-python setup_agent.py --agent-id agent_xxx
+python -m agent.setup_agent --agent-id agent_xxx
 ```
 
 ## 5. Run the UI
@@ -133,13 +139,13 @@ npm run dev
 and visit `http://localhost:5173`. See `elevenlabs-chat/README.md` for how
 it's built.
 
-**Legacy UI — `index.html`** (no build step, one button):
+**Legacy UI — `legacy/index.html`** (no build step, one button):
 
 Paste your `AGENT_ID` into the `agent-id="..."` attribute on the
-`<elevenlabs-convai>` tag, then either double-click `index.html` to open it
+`<elevenlabs-convai>` tag, then either double-click `legacy/index.html` to open it
 directly in a browser, or serve it locally:
 ```bash
-python -m http.server 8000
+cd legacy && python -m http.server 8000
 ```
 and visit `http://localhost:8000`.
 
@@ -149,19 +155,19 @@ mid-sentence.
 
 ## Building the reference material
 
-`data/dbc_reference.txt` is what `prompts.py` actually loads into `SYSTEM_PROMPT` — a
+`data/dbc_reference.txt` is what `agent/prompts.py` actually loads into `SYSTEM_PROMPT` — a
 plain-text concatenation of DBC pages, each tagged `--- Page N ---` so every answer the
 agent gives can cite a real page. It currently covers pages 11–161, with a gap at
 59–160 not yet ingested.
 
-It's built in three steps from the source PDF (`Dubai Building Code_English_2021
+It's built in three steps from the source PDF (`data/source/Dubai Building Code_English_2021
 Edition.pdf`, not committed — see [Data and copyright](#data-and-copyright)):
 
 1. **Extract the text layer.** `scripts/extract_text.py --cache <pdf>` runs
    `pdftotext -layout` once and caches the result as `<pdf>.full_text.txt`. You can also
    dump a specific page range to read while authoring a batch:
    ```bash
-   python scripts/extract_text.py "Dubai Building Code_English_2021 Edition.pdf" 11 39
+   python scripts/extract_text.py "data/source/Dubai Building Code_English_2021 Edition.pdf" 11 39
    ```
 2. **Author page batches.** Each `data/batch_NNN.json` is a JSON array of
    `{page_number, summary, page_content}` objects — `page_content` is the page
@@ -172,13 +178,13 @@ Edition.pdf`, not committed — see [Data and copyright](#data-and-copyright)):
    batch files into one parsed-document JSON, reporting any duplicate or missing page
    numbers so a partial ingestion run is never mistaken for a complete one. The pages
    are then written out as `--- Page N ---`-tagged text blocks into
-   `data/dbc_reference.txt`, which is what's actually committed and read by `prompts.py`.
+   `data/dbc_reference.txt`, which is what's actually committed and read by `agent/prompts.py`.
 
 ## Docker
 
 The `Dockerfile` bundles Python 3.12, `uv`, and `poppler-utils` (for
 `scripts/extract_text.py`). `docker-compose.yml` bind-mounts the repo into the
-container and forwards port 8000 (for the legacy `index.html` UI):
+container and forwards port 8000 (for the legacy `legacy/index.html` UI):
 
 ```bash
 docker compose build
@@ -186,7 +192,7 @@ docker compose run --rm app bash
 ```
 
 Inside the container, `uv sync` has already run against the frozen lockfile; use the
-same commands as above (`python setup_agent.py`, etc.).
+same commands as above (`python -m agent.setup_agent`, etc.).
 
 ## Data and copyright
 
@@ -195,8 +201,8 @@ copyrighted document and isn't committed. `data/batch_*.json` (the raw per-page
 transcriptions) are also gitignored, to avoid multiplying copies of that copyrighted
 text across files. `data/dbc_reference.txt` — the single distilled reference file
 actually shipped to the agent — is committed, along with the full extracted text cache
-(`Dubai Building Code_English_2021 Edition.full_text.txt`). Reconsider whether those
-belong in a public repo before publishing it anywhere.
+(`data/source/Dubai Building Code_English_2021 Edition.full_text.txt`). Reconsider whether
+those belong in a public repo before publishing it anywhere.
 
 ## Notes
 
@@ -205,7 +211,7 @@ belong in a public repo before publishing it anywhere.
   small backend endpoint that calls `get_signed_url()` with your API key
   and passes that signed URL to the UI instead. (Not built yet in
   `elevenlabs-chat/` — see its README's "Not built yet" section.)
-- `setup_agent.py --agent-id agent_xxx` updates that agent's prompt and LLM
+- `python -m agent.setup_agent --agent-id agent_xxx` updates that agent's prompt and LLM
   in place; running without `--agent-id` always creates a brand new agent
   with its own ID — save the printed `AGENT_ID` you want to keep.
 - LLM usage is billed from your ElevenLabs account credits, not a separate key.

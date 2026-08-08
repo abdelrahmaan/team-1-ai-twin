@@ -8,16 +8,16 @@ settings in config.py:
 
 Usage:
   export ELEVENLABS_API_KEY=your_api_key
-  python setup_agent.py                        # create a new agent, no PDF context
-  python setup_agent.py --pdf notes.pdf         # create a new agent, with PDF context
-  python setup_agent.py --agent-id agent_xxx    # update an existing agent's prompt/LLM in place
+  python -m agent.setup_agent                        # create a new agent, no PDF context
+  python -m agent.setup_agent --pdf notes.pdf         # create a new agent, with PDF context
+  python -m agent.setup_agent --agent-id agent_xxx    # update an existing agent's prompt/LLM in place
 """
 
 import argparse
 import os
 from elevenlabs import ElevenLabs
 
-import config
+from agent import config
 
 client = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
 
@@ -114,7 +114,7 @@ def main():
         print("No PDF provided.")
 
     print("\nPut this in elevenlabs-chat/.env.local as VITE_ELEVENLABS_AGENT_ID")
-    print("(or in index.html's agent-id field for the legacy UI):")
+    print("(or in legacy/index.html's agent-id field for the legacy UI):")
     print(agent_id)
 
 

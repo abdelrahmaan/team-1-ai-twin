@@ -19,26 +19,26 @@ The system has three parts that all live in this repo:
 ## 2. Architecture
 
 ```
- Dubai Building Code PDF (not committed, third-party copyrighted)
+ data/source/*.pdf (not committed, third-party copyrighted)
         │  scripts/extract_text.py (pdftotext -layout, cached)
         ▼
- <pdf>.full_text.txt  ── author by hand/LLM ──▶  data/batch_NNN.json (gitignored)
+ data/source/*.full_text.txt  ── author by hand/LLM ──▶  data/batch_NNN.json (gitignored)
                                                         │
                                             scripts/assemble.py
                                                         ▼
                                        data/dbc_reference.txt  (committed)
                                                         │
-                                              prompts.py (SYSTEM_PROMPT =
+                                              agent/prompts.py (SYSTEM_PROMPT =
                                               persona + reference material)
                                                         │
-                                              config.py (agent name, LLM,
+                                              agent/config.py (agent name, LLM,
                                               voice, file-upload limits)
                                                         │
-                                              setup_agent.py ── ElevenLabs API ──▶ Conversational AI Agent
+                                              agent/setup_agent.py ── ElevenLabs API ──▶ Conversational AI Agent
                                                                                           │
                                               ┌───────────────────────────────────────────┘
                                               ▼
-                          elevenlabs-chat/ (React, @elevenlabs/react)  ──or──  index.html (legacy)
+                     elevenlabs-chat/ (React, @elevenlabs/react)  ──or──  legacy/index.html (legacy)
                                               │
                                         end user (chat + voice, WebSocket/WebRTC)
 ```
@@ -61,11 +61,14 @@ agent run continuously.
 
 ### 3.2 Agent configuration
 
+The Python code that assembles and pushes the agent config lives in the `agent/`
+package, run as `python -m agent.setup_agent`.
+
 | File | Role |
 |---|---|
-| `prompts.py` | Defines `AGENT_PERSONA_PROMPT` (Mizan's behavior rules, in priority order: grounded-not-guessing, defer-instead-of-bluffing, know-the-hierarchy) and assembles `SYSTEM_PROMPT` from the persona plus `data/dbc_reference.txt`. |
-| `config.py` | Agent settings: `AGENT_NAME`, `LLM_MODEL` (e.g. `gemini-2.0-flash`, `gpt-4o`, `claude-sonnet-4-5`), optional `VOICE_ID`, optional `PDF_PATH` for extra knowledge-base context, and file-upload limits (`ALLOW_FILE_UPLOADS`, `MAX_FILES_PER_CONVERSATION`). |
-| `setup_agent.py` | Talks to the ElevenLabs API (`ELEVENLABS_API_KEY` from the environment). Creates a new agent, or — with `--agent-id` — updates prompt/LLM on an existing agent in place without touching its other settings (voice, knowledge base, tools). Optionally uploads a PDF to the agent's knowledge base via `--pdf`. |
+| `agent/prompts.py` | Defines `AGENT_PERSONA_PROMPT` (Mizan's behavior rules, in priority order: grounded-not-guessing, defer-instead-of-bluffing, know-the-hierarchy) and assembles `SYSTEM_PROMPT` from the persona plus `data/dbc_reference.txt`. |
+| `agent/config.py` | Agent settings: `AGENT_NAME`, `LLM_MODEL` (e.g. `gemini-2.0-flash`, `gpt-4o`, `claude-sonnet-4-5`), optional `VOICE_ID`, optional `PDF_PATH` for extra knowledge-base context, and file-upload limits (`ALLOW_FILE_UPLOADS`, `MAX_FILES_PER_CONVERSATION`). |
+| `agent/setup_agent.py` | Talks to the ElevenLabs API (`ELEVENLABS_API_KEY` from the environment, see `.env.example`). Creates a new agent, or — with `--agent-id` — updates prompt/LLM on an existing agent in place without touching its other settings (voice, knowledge base, tools). Optionally uploads a PDF to the agent's knowledge base via `--pdf`. |
 
 ### 3.3 Client UI
 
@@ -79,15 +82,16 @@ agent run continuously.
   transform directly to the DOM rather than through React state, to avoid
   re-rendering at 60fps. Configured via `elevenlabs-chat/.env.local`
   (`VITE_ELEVENLABS_AGENT_ID`).
-- **`index.html`** — legacy UI. No build step; a single `<elevenlabs-convai>`
-  embed with a hardcoded `agent-id`.
+- **`legacy/index.html`** — legacy UI. No build step; a single
+  `<elevenlabs-convai>` embed with a hardcoded `agent-id`.
 
 ### 3.4 Dev environment
 
 `Dockerfile` bundles Python 3.12, `uv`, and `poppler-utils`.
 `docker-compose.yml` bind-mounts the repo and forwards port 8000 for the
-legacy `index.html` UI. Dependencies are managed with `uv` (`pyproject.toml`
-/ `uv.lock`), with `requirements.txt` kept in sync for plain-`pip` use.
+legacy `legacy/index.html` UI. Dependencies are managed with `uv`
+(`pyproject.toml` / `uv.lock`), with `requirements.txt` kept in sync for
+plain-`pip` use.
 
 ## 4. Tech stack
 
@@ -106,7 +110,7 @@ legacy `index.html` UI. Dependencies are managed with `uv` (`pyproject.toml`
 1. Client establishes a session with the ElevenLabs agent (WebSocket for
    text, WebRTC once voice starts), authenticated by public `agent-id`.
 2. The agent's `SYSTEM_PROMPT` (persona + full DBC reference text) was
-   already baked in at `setup_agent.py` time — there is no per-turn
+   already baked in at `agent/setup_agent.py` time — there is no per-turn
    retrieval step; the whole reference material is in context.
 3. ElevenLabs runs the configured `LLM_MODEL` against that prompt plus the
    conversation turns, and streams back text/audio.
@@ -131,8 +135,9 @@ legacy `index.html` UI. Dependencies are managed with `uv` (`pyproject.toml`
 
 ## 7. Data and copyright
 
-The source PDF (`Dubai Building Code_English_2021 Edition.pdf`) and the raw
-per-page batch transcriptions (`data/batch_*.json`) are gitignored — both are
+The source PDF (`data/source/Dubai Building Code_English_2021 Edition.pdf`) and the
+raw per-page batch transcriptions (`data/batch_*.json`) are gitignored — both are
 derived from, or are, third-party copyrighted material. Only the distilled
-`data/dbc_reference.txt` and the full extracted-text cache are committed.
-Reconsider whether either belongs in a public repo before publishing it.
+`data/dbc_reference.txt` and the full extracted-text cache
+(`data/source/*.full_text.txt`) are committed. Reconsider whether either belongs in
+a public repo before publishing it.

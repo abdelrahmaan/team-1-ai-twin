@@ -10,7 +10,7 @@ config.py imports SYSTEM_PROMPT from here to configure the ElevenLabs agent
 import re
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 REFERENCE_FILE = DATA_DIR / "dbc_reference.txt"
 
 # ── Persona ───────────────────────────────────────────────────────────

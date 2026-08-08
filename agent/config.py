@@ -1,14 +1,14 @@
 """
 config.py
 All configurable settings for the voice agent live here.
-Edit this file, then run: python setup_agent.py
+Edit this file, then run: python -m agent.setup_agent
 """
 
 # ── Agent identity ─────────────────────────────────────────────────────
 AGENT_NAME = "My Voice Assistant"
 
 # The agent's role / behavior. Defined in prompts.py (persona + DBC reference material).
-from prompts import SYSTEM_PROMPT
+from agent.prompts import SYSTEM_PROMPT
 
 FIRST_MESSAGE = "Hi! I'm ready to help. What would you like to talk about?"
 
